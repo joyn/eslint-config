@@ -477,6 +477,12 @@ module.exports = {
         'no-alert': 'off',
         'no-script-url': 'off',
         'no-restricted-globals': 'off',
-        'max-len': 'off'
+        'max-len': 'off',
+
+        'grouped-accessor-pairs': 'off',
+        'no-constructor-return': 'error',
+        'no-dupe-else-if': 'error',
+        'no-setter-return': 'error',
+        'prefer-exponentiation-operator': 'error'
     }
 };
