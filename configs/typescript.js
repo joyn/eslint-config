@@ -92,13 +92,7 @@ module.exports = {
         'func-call-spacing': 'off',
         '@typescript-eslint/func-call-spacing': ['error', 'never'],
         indent: 'off',
-        '@typescript-eslint/indent': [
-            'error',
-            4,
-            {
-                SwitchCase: 1
-            }
-        ],
+        '@typescript-eslint/indent': 'off',
         '@typescript-eslint/interface-name-prefix': ['error', 'never'],
         '@typescript-eslint/member-delimiter-style': [
             'error',
