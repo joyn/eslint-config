@@ -42,5 +42,5 @@ The following `.eslintrc.json` config file configures a node project with mixed 
 * `joyn/presets/commonjs`
 * `joyn/presets/esm`
 * `joyn/presets/mocha-chai`: requires additional dependencies `npm i -D eslint-plugin-mocha`
-* `joyn/presets/typescript`: requires additional dependencies `npm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin`
+* `joyn/presets/typescript`: requires additional dependencies `npm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin` and the use of [`--ext`](https://eslint.org/docs/user-guide/command-line-interface#ext) ESLint CLI option in order to lint `.ts` files
 * `joyn/presets/ava`: requires additional dependencies `npm i -D eslint-plugin-ava`
