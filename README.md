@@ -1,4 +1,4 @@
-[![GitHub Actions status](https://github.com/joyn/eslint-config/workflows/CI/badge.svg)](https://github.com/joyn/eslint-config/actions)
+[![GitHub Actions status](https://github.com/joyn/eslint-config/workflows/CI%20Pipeline/badge.svg)](https://github.com/joyn/eslint-config/actions)
 [![peerDependencies](https://img.shields.io/david/peer/joyn/eslint-config)](https://david-dm.org/joyn/eslint-config?type=peer)
 
 # eslint-config-joyn
