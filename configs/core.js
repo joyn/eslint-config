@@ -63,7 +63,7 @@ module.exports = {
         'no-implicit-coercion': 'error',
         'no-implicit-globals': 'error',
         'no-implied-eval': 'error',
-        'no-inline-comments': 'error',
+        'no-inline-comments': 'off',
         'no-inner-declarations': ['error', 'functions'],
         'no-invalid-regexp': 'error',
         'no-invalid-this': 'off',
