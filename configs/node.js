@@ -18,7 +18,9 @@ module.exports = {
         'no-sync': 'error',
 
         'node/no-unpublished-bin': 'error',
-        'node/no-unsupported-features': 'error',
+        'node/no-unsupported-features/node-builtins': 'error',
+        'node/no-unsupported-features/es-syntax': 'error',
+        'node/no-unsupported-features/es-builtins': 'error',
         'node/no-deprecated-api': 'error',
         'node/prefer-global/buffer': ['error', 'always'],
         'node/prefer-global/console': ['error', 'always'],
