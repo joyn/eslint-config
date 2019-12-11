@@ -1,0 +1,9 @@
+{
+    "extends": [ "./presets/index.js", "./presets/commonjs.js", "./presets/node.js" ],
+    "overrides": [
+        {
+            "files": [ "./test/**/*.js" ],
+            "extends": [ "./presets/ava.js" ]
+        }
+    ]
+}
