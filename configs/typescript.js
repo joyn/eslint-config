@@ -197,6 +197,6 @@ module.exports = {
         'no-unused-expressions': 'off',
         '@typescript-eslint/no-object-literal-type-assertion': 'off',
         '@typescript-eslint/require-await': 'off',
-        '@typescript-eslint/strict-boolean-expressions': ['error', {allowNullable: true}]
+        '@typescript-eslint/strict-boolean-expressions': ['error', { allowNullable: true }]
     }
 };

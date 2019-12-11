@@ -44,7 +44,7 @@ module.exports = {
                 allowElseIf: false
             }
         ],
-        'no-empty': ['error', {allowEmptyCatch: true}],
+        'no-empty': ['error', { allowEmptyCatch: true }],
         'no-empty-character-class': 'error',
         'no-empty-function': 'off',
         'no-empty-pattern': 'error',
@@ -226,7 +226,7 @@ module.exports = {
             }
         ],
         'comma-style': ['error', 'last'],
-        complexity: ['warn', {max: 6}],
+        complexity: ['warn', { max: 6 }],
         'computed-property-spacing': [
             'error',
             'never',
@@ -267,13 +267,13 @@ module.exports = {
             }
         ],
         'lines-around-comment': 'off',
-        'max-depth': ['warn', {max: 5}],
+        'max-depth': ['warn', { max: 5 }],
         'max-lines': 'off',
-        'max-nested-callbacks': ['warn', {max: 4}],
-        'max-params': ['warn', {max: 4}],
+        'max-nested-callbacks': ['warn', { max: 4 }],
+        'max-params': ['warn', { max: 4 }],
         'max-statements': ['error', 10],
         'multiline-ternary': 'off',
-        'max-statements-per-line': ['error', {max: 1}],
+        'max-statements-per-line': ['error', { max: 1 }],
         'new-cap': [
             'error',
             {
@@ -284,7 +284,7 @@ module.exports = {
         'new-parens': 'error',
         'newline-per-chained-call': 'off',
         'object-curly-newline': 'off',
-        'object-curly-spacing': ['error', 'never'],
+        'object-curly-spacing': ['error', 'always'],
         'object-property-newline': 'off',
         'object-shorthand': ['error', 'always'],
         'one-var': ['error', 'never'],
