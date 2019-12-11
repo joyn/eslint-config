@@ -1,3 +1,5 @@
+[![GitHub Actions status](https://github.com/joyn/eslint-config/workflows/CI/badge.svg)](https://github.com/joyn/eslint-config/actions)
+
 # eslint-config-joyn
 
 Shareable ESLint config presets for Joyn.
