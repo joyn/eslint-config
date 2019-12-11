@@ -1,5 +1,5 @@
 {
-    "name": "@joyn/eslint-config",
+    "name": "eslint-config-joyn",
     "version": "0.0.0-dev",
     "description": "Shareable ESLint config presets for Joyn.",
     "main": "./presets/index.js",
