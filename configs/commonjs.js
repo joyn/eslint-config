@@ -14,6 +14,8 @@ module.exports = {
         ],
         'no-new-require': 'error',
 
-        'import/no-commonjs': 'off'
+        'import/no-commonjs': 'off',
+
+        'no-implicit-globals': 'off'
     }
 };
