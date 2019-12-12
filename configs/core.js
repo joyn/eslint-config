@@ -438,7 +438,7 @@ module.exports = {
                 allowImplicit: false
             }
         ],
-        'implicit-arrow-linebreak': ['error', 'beside'],
+        'implicit-arrow-linebreak': 'off',
         'lines-between-class-members': [
             'error',
             'always',
