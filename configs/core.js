@@ -269,9 +269,9 @@ module.exports = {
         'lines-around-comment': 'off',
         'max-depth': ['warn', { max: 5 }],
         'max-lines': 'off',
-        'max-nested-callbacks': ['warn', { max: 4 }],
+        'max-nested-callbacks': ['warn', { max: 6 }],
         'max-params': ['warn', { max: 4 }],
-        'max-statements': ['error', 10],
+        'max-statements': ['warn', 13],
         'multiline-ternary': 'off',
         'max-statements-per-line': ['error', { max: 1 }],
         'new-cap': [
