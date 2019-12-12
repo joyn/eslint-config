@@ -306,7 +306,7 @@ module.exports = {
         ],
         'prefer-rest-params': 'error',
         'quote-props': ['error', 'as-needed'],
-        quotes: ['error', 'single'],
+        quotes: ['error', 'single', { avoidEscape: true }],
         radix: 'error',
         'id-match': 'off',
         'id-blacklist': 'off',

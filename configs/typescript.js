@@ -170,7 +170,7 @@ module.exports = {
             }
         ],
         quotes: 'off',
-        '@typescript-eslint/quotes': ['error', 'single'],
+        '@typescript-eslint/quotes': ['error', 'single', { avoidEscape: true }],
         '@typescript-eslint/restrict-plus-operands': 'error',
         '@typescript-eslint/require-array-sort-compare': 'error',
         semi: 'off',
