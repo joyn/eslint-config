@@ -459,7 +459,7 @@ module.exports = {
         'no-useless-catch': 'error',
         'prefer-named-capture-group': 'error',
         'no-import-assign': 'error',
-        'require-atomic-updates': 'error',
+        'require-atomic-updates': 'off',
 
         'callback-return': 'off',
         'global-require': 'off',
