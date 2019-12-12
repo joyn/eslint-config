@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-joyn",
-    "version": "0.0.0-dev",
+    "version": "0.1.0",
     "description": "Shareable ESLint config presets for Joyn.",
     "main": "./presets/index.js",
     "files": [
@@ -11,7 +11,8 @@
     ],
     "scripts": {
         "lint": "eslint .",
-        "test": "npm run lint && ava"
+        "test": "npm run lint && ava",
+        "changelog": "pr-log"
     },
     "engines": {
         "node": ">=10.0.0"
@@ -40,6 +41,7 @@
         "eslint-plugin-promise": "4.2.1",
         "eslint-plugin-unicorn": "14.0.1",
         "espree": "6.1.2",
+        "pr-log": "4.0.0",
         "prettier": "1.19.1"
     },
     "peerDependencies": {
