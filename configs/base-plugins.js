@@ -112,7 +112,7 @@ module.exports = {
         'unicorn/prefer-node-remove': 'error',
         'unicorn/prefer-query-selector': 'error',
         'unicorn/prefer-reflect-apply': 'error',
-        'unicorn/prefer-spread': 'error',
+        'unicorn/prefer-spread': 'off',
         'unicorn/prefer-starts-ends-with': 'error',
         'unicorn/prefer-string-slice': 'error',
         'unicorn/prefer-text-content': 'error',
