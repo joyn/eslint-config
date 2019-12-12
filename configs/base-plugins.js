@@ -3,7 +3,7 @@
 module.exports = {
     plugins: ['unicorn', 'promise', 'import', 'eslint-comments', 'no-secrets', 'optimize-regex', 'array-func'],
     rules: {
-        'no-secrets/no-secrets': 'error',
+        'no-secrets/no-secrets': ['error', { tolerance: 5 }],
 
         'optimize-regex/optimize-regex': 'warn',
 
