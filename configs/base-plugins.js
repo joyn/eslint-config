@@ -77,7 +77,7 @@ module.exports = {
         ],
 
         'unicorn/catch-error-name': 'error',
-        'unicorn/consistent-function-scoping': 'error',
+        'unicorn/consistent-function-scoping': 'off',
         'unicorn/custom-error-definition': 'off',
         'unicorn/error-message': 'error',
         'unicorn/escape-case': 'error',
