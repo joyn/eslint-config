@@ -6,6 +6,8 @@ module.exports = {
     },
     plugins: ['mocha'],
     rules: {
+        'max-statements': 'off',
+
         'mocha/handle-done-callback': 'error',
         'mocha/max-top-level-suites': 'off',
         'mocha/no-exclusive-tests': 'warn',
