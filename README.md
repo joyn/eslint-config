@@ -1,3 +1,4 @@
+[![NPM Version](https://img.shields.io/npm/v/eslint-config-joyn.svg?style=flat)](https://www.npmjs.org/package/eslint-config-joyn)
 [![GitHub Actions status](https://github.com/joyn/eslint-config/workflows/CI%20Pipeline/badge.svg)](https://github.com/joyn/eslint-config/actions)
 [![peerDependencies](https://img.shields.io/david/peer/joyn/eslint-config)](https://david-dm.org/joyn/eslint-config?type=peer)
 
