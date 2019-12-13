@@ -88,5 +88,8 @@
     "keywords": [
         "eslint",
         "eslintconfig"
-    ]
+    ],
+    "publishConfig": {
+        "access": "public"
+    }
 }
