@@ -10,7 +10,7 @@ This config aims for ES2015+ or TypeScript code. It supports various environment
 
 ## Install and Setup
 
-* Make sure to install all required peer dependencies along with this config: `npm i -D joyn/eslint-config eslint-plugin-prettier prettier eslint-plugin-unicorn eslint-plugin-promise eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-optimize-regex eslint-plugin-no-secrets eslint-plugin-array-func`
+* Make sure to install all required peer dependencies along with this config: `npm i -D eslint-config-joyn eslint-plugin-prettier prettier eslint-plugin-unicorn eslint-plugin-promise eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-optimize-regex eslint-plugin-no-secrets eslint-plugin-array-func`
 * Add `extends: "joyn"` to your ESLint config.
 
 ## Specify Environments
