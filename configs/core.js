@@ -290,7 +290,7 @@ module.exports = {
         'one-var': ['error', 'never'],
         'one-var-declaration-per-line': 'error',
         'operator-assignment': ['error', 'always'],
-        'operator-linebreak': ['error', 'after'],
+        'operator-linebreak': ['error', 'after', { overrides: { '?': 'before', ':': 'before' } }],
         'padded-blocks': [
             'error',
             'never',
