@@ -191,6 +191,10 @@ module.exports = {
         'no-unused-expressions': 'off',
         '@typescript-eslint/no-object-literal-type-assertion': 'off',
         '@typescript-eslint/require-await': 'off',
-        '@typescript-eslint/strict-boolean-expressions': 'off'
+        '@typescript-eslint/strict-boolean-expressions': 'off',
+        '@typescript-eslint/no-throw-literal': 'error',
+        '@typescript-eslint/no-extra-semi': 'error',
+        '@typescript-eslint/prefer-optional-chain': 'error',
+        '@typescript-eslint/prefer-nullish-coalescing': 'error'
     }
 };
