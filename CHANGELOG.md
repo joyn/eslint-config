@@ -1,10 +1,17 @@
+## 0.2.1 (January 28, 2020)
+
+### Dependency Upgrades
+
+* update dev dependencies
+* update peer dependencies
+
 ## 0.2.0 (December 28, 2019)
 
-## Enhancements
+### Enhancements
 
 * enable new typescript rules
 
-## Dependency Upgrades
+### Dependency Upgrades
 
 * update dev dependencies
 * update peer dependencies
