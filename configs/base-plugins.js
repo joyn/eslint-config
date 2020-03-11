@@ -118,7 +118,7 @@ module.exports = {
         'unicorn/prefer-text-content': 'error',
         'unicorn/prefer-type-error': 'error',
         'unicorn/prevent-abbreviations': 'off',
-        'unicorn/regex-shorthand': 'error',
+        'unicorn/better-regex': 'error',
         'unicorn/throw-new-error': 'error',
 
         'array-func/from-map': 'error',
