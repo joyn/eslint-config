@@ -1,3 +1,13 @@
+## 0.3.0 (March 11, 2020)
+
+### Bug fixes
+
+* Disable unicorn/better-regex rule
+
+### Dependency Upgrades
+
+* update dependencies
+
 ## 0.2.1 (January 28, 2020)
 
 ### Dependency Upgrades
