@@ -1,3 +1,13 @@
+## 0.4.0 (March 25, 2020)
+
+### Breaking Changes
+
+* Require prettier 2.x
+
+### Dependency Upgrades
+
+* update dependencies
+
 ## 0.3.0 (March 11, 2020)
 
 ### Bug fixes
