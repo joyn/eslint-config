@@ -333,7 +333,7 @@ module.exports = {
         'space-before-function-paren': [
             'error',
             {
-                anonymous: 'never',
+                anonymous: 'always',
                 named: 'never',
                 asyncArrow: 'always'
             }
