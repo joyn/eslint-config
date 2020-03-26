@@ -357,7 +357,7 @@ module.exports = {
             }
         ],
         'sort-imports': 'off',
-        strict: ['error', 'global'],
+        strict: ['error', 'safe'],
         'template-curly-spacing': 'error',
         'unicode-bom': ['error', 'never'],
         'use-isnan': 'error',
