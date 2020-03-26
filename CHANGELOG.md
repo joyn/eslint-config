@@ -1,3 +1,10 @@
+## Unreleased
+
+### Bug Fixes
+
+* Use safe option for strict rule
+* Change wrap-iife setting to be compatible with prettier
+
 ## 0.4.1 (March 25, 2020)
 
 ### Bug Fixes
