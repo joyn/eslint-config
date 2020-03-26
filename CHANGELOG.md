@@ -1,3 +1,9 @@
+## 0.4.1 (March 25, 2020)
+
+### Bug Fixes
+
+* Fix space-before-function-paren settings to comply with prettier 2.x
+
 ## 0.4.0 (March 25, 2020)
 
 ### Breaking Changes
