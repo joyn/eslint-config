@@ -4,6 +4,11 @@ module.exports = {
     env: {
         commonjs: true
     },
+    parserOptions: {
+        ecmaFeatures: {
+            globalReturn: true
+        }
+    },
     rules: {
         'no-mixed-requires': [
             'error',
