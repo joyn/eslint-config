@@ -364,7 +364,7 @@ module.exports = {
         'valid-jsdoc': 'off',
         'valid-typeof': 'error',
         'vars-on-top': 'error',
-        'wrap-iife': ['error', 'outside'],
+        'wrap-iife': ['error', 'inside'],
         'wrap-regex': 'off',
         'yield-star-spacing': ['error', 'both'],
         yoda: ['error', 'never'],
