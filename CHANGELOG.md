@@ -1,4 +1,16 @@
-## Unreleased
+## 0.5.0
+
+### Enhancements
+
+* Configure unconfigured core and plugin rules
+
+### Breaking Changes
+
+* Require ESLint v7
+
+### Dependency Upgrades
+
+* update plugins
 
 ### Bug Fixes
 
