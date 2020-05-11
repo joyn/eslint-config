@@ -483,6 +483,10 @@ module.exports = {
         'no-constructor-return': 'error',
         'no-dupe-else-if': 'error',
         'no-setter-return': 'error',
-        'prefer-exponentiation-operator': 'error'
+        'prefer-exponentiation-operator': 'error',
+
+        'default-case-last': 'error',
+        'no-restricted-exports': 'off',
+        'no-useless-backreference': 'error'
     }
 };
