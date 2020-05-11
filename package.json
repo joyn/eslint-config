@@ -80,7 +80,7 @@
     },
     "ava": {
         "files": [
-            "test/**/*.js"
+            "test/**/*Spec.js"
         ]
     },
     "keywords": [
