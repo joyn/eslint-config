@@ -39,7 +39,7 @@ module.exports = {
         'eslint-comments/no-unused-enable': 'error',
         'eslint-comments/no-restricted-disable': 'off',
         'eslint-comments/no-unlimited-disable': 'off',
-        'eslint-comments/no-use': 'error',
+        'eslint-comments/no-use': 'off',
 
         'import/imports-first': 'off',
         'import/no-deprecated': 'off',
