@@ -1,3 +1,11 @@
+## 0.5.3 (May 12, 2020)
+
+### Bug-Fixes
+
+* Disable `eslint-comment/no-use` rule
+* Make `@typescript-eslint/no-base-to-string` report as warning
+* Disable `@typescript-eslint/no-extra-parens` as it conflicts with prettier
+
 ## 0.5.2 (May 12, 2020)
 
 ### Bug-Fixes
