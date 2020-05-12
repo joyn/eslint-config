@@ -211,7 +211,7 @@ module.exports = {
         '@typescript-eslint/default-param-last': ['error'],
         'dot-notation': 'off',
         '@typescript-eslint/dot-notation': ['error'],
-        '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'explicit' }],
+        '@typescript-eslint/explicit-member-accessibility': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/init-declarations': 'off',
         'keyword-spacing': 'off',
