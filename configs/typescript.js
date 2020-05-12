@@ -253,7 +253,7 @@ module.exports = {
         'no-use-before-define': 'off',
         '@typescript-eslint/no-use-before-define': ['error'],
         '@typescript-eslint/prefer-as-const': ['error'],
-        '@typescript-eslint/prefer-readonly-parameter-types': ['warn'],
+        '@typescript-eslint/prefer-readonly-parameter-types': ['off'],
         '@typescript-eslint/prefer-reduce-type-parameter': ['error'],
         '@typescript-eslint/prefer-ts-expect-error': ['off'],
         '@typescript-eslint/restrict-template-expressions': ['off'],
