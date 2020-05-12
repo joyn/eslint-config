@@ -1,8 +1,14 @@
+## 0.5.2 (May 12, 2020)
+
+### Bug-Fixes
+
+* Disable `@typesscript-eslint/explicit-member-accessibility`
+
 ## 0.5.1 (May 12, 2020)
 
 ### Bug-Fixes
 
-* Disable `@typesscript/prefer-readonly-parameter-types` which has a lot of false-positives
+* Disable `@typesscript-eslint/prefer-readonly-parameter-types` which has a lot of false-positives
 
 ## 0.5.0 (May 11, 2020)
 
