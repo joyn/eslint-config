@@ -230,7 +230,7 @@ module.exports = {
         '@typescript-eslint/no-dynamic-delete': ['warn'],
         '@typescript-eslint/no-extra-non-null-assertion': ['error'],
         'no-extra-parens': 'off',
-        '@typescript-eslint/no-extra-parens': ['error'],
+        '@typescript-eslint/no-extra-parens': ['off'],
         '@typescript-eslint/no-floating-promises': ['error'],
         '@typescript-eslint/no-implied-eval': ['off'],
         '@typescript-eslint/no-invalid-this': ['off'],
