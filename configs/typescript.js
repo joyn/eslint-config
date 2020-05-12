@@ -224,7 +224,7 @@ module.exports = {
         ],
         '@typescript-eslint/method-signature-style': ['error', 'method'],
         '@typescript-eslint/naming-convention': 'off',
-        '@typescript-eslint/no-base-to-string': 'error',
+        '@typescript-eslint/no-base-to-string': 'warn',
         'no-dupe-class-members': 'off',
         '@typescript-eslint/no-dupe-class-members': ['error'],
         '@typescript-eslint/no-dynamic-delete': ['warn'],
