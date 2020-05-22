@@ -163,6 +163,9 @@ module.exports = {
         'unicorn/prevent-abbreviations': 'off',
         'unicorn/better-regex': 'off',
         'unicorn/throw-new-error': 'error',
+        'unicorn/no-reduce': 'off',
+        'unicorn/no-useless-undefined': 'off',
+        'unicorn/prefer-optional-catch-binding': 'error',
 
         'array-func/from-map': 'error',
         'array-func/no-unnecessary-this-arg': 'error',
