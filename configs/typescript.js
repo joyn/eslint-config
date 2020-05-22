@@ -72,8 +72,19 @@ module.exports = {
                 allowSingleLine: false
             }
         ],
-        '@typescript-eslint/camelcase': 'off',
-        '@typescript-eslint/class-name-casing': 'error',
+        '@typescript-eslint/naming-convention': [
+            'error',
+            {
+                selector: 'parameter',
+                format: ['camelCase'],
+                leadingUnderscore: 'allow',
+                trailingUnderscore: 'forbid'
+            },
+            {
+                selector: 'typeLike',
+                format: ['PascalCase']
+            }
+        ],
         '@typescript-eslint/consistent-type-assertions': [
             'error',
             {
@@ -88,12 +99,10 @@ module.exports = {
                 allowTypedFunctionExpressions: true
             }
         ],
-        '@typescript-eslint/generic-type-naming': 'off',
         'func-call-spacing': 'off',
         '@typescript-eslint/func-call-spacing': ['error', 'never'],
         indent: 'off',
         '@typescript-eslint/indent': 'off',
-        '@typescript-eslint/interface-name-prefix': ['error', 'never'],
         '@typescript-eslint/member-delimiter-style': [
             'error',
             {
@@ -107,7 +116,6 @@ module.exports = {
                 }
             }
         ],
-        '@typescript-eslint/member-naming': 'off',
         '@typescript-eslint/member-ordering': 'error',
         'no-array-constructor': 'off',
         '@typescript-eslint/no-array-constructor': 'error',
@@ -196,7 +204,6 @@ module.exports = {
         '@typescript-eslint/prefer-optional-chain': 'error',
         '@typescript-eslint/prefer-nullish-coalescing': 'error',
         '@typescript-eslint/ban-ts-comment': 'off',
-        '@typescript-eslint/ban-ts-ignore': 'off',
         '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
         'comma-spacing': 'off',
         '@typescript-eslint/comma-spacing': [
@@ -223,7 +230,6 @@ module.exports = {
             }
         ],
         '@typescript-eslint/method-signature-style': ['error', 'method'],
-        '@typescript-eslint/naming-convention': 'off',
         '@typescript-eslint/no-base-to-string': 'warn',
         'no-dupe-class-members': 'off',
         '@typescript-eslint/no-dupe-class-members': ['error'],
@@ -247,7 +253,6 @@ module.exports = {
         '@typescript-eslint/no-unsafe-call': ['warn'],
         '@typescript-eslint/no-unsafe-member-access': ['warn'],
         '@typescript-eslint/no-unsafe-return': ['warn'],
-        '@typescript-eslint/no-untyped-public-signature': ['error'],
         '@typescript-eslint/no-unused-expressions': ['off'],
         '@typescript-eslint/no-unused-vars-experimental': ['off'],
         'no-use-before-define': 'off',
@@ -261,6 +266,8 @@ module.exports = {
         '@typescript-eslint/space-before-function-paren': ['off'],
         '@typescript-eslint/switch-exhaustiveness-check': ['error'],
         '@typescript-eslint/typedef': ['off'],
-        '@typescript-eslint/unbound-method': ['error']
+        '@typescript-eslint/unbound-method': ['error'],
+        'lines-between-class-members': 'off',
+        '@typescript-eslint/lines-between-class-members': ['error']
     }
 };
