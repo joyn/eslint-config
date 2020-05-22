@@ -1,3 +1,10 @@
+## 0.6.0 (May 22, 2020)
+
+### Dependency Updates
+
+* Update typescript-eslint to v3
+* Update plugins
+
 ## 0.5.3 (May 12, 2020)
 
 ### Bug-Fixes
