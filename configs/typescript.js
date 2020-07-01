@@ -266,7 +266,7 @@ module.exports = {
         '@typescript-eslint/space-before-function-paren': ['off'],
         '@typescript-eslint/switch-exhaustiveness-check': ['error'],
         '@typescript-eslint/typedef': ['off'],
-        '@typescript-eslint/unbound-method': ['error'],
+        '@typescript-eslint/unbound-method': ['off'],
         'lines-between-class-members': 'off',
         '@typescript-eslint/lines-between-class-members': ['error']
     }
