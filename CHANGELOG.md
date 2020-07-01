@@ -1,3 +1,9 @@
+## 0.6.1 (July 01, 2020)
+
+### Bug Fixes
+
+* Disabl @typescript-eslint/unbound-method
+
 ## 0.6.0 (May 22, 2020)
 
 ### Dependency Updates
