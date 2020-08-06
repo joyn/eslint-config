@@ -40,6 +40,7 @@ module.exports = {
         'eslint-comments/no-restricted-disable': 'off',
         'eslint-comments/no-unlimited-disable': 'off',
         'eslint-comments/no-use': 'off',
+        'eslint-comments/require-description': 'off',
 
         'import/imports-first': 'off',
         'import/no-deprecated': 'off',
@@ -166,6 +167,8 @@ module.exports = {
         'unicorn/no-reduce': 'off',
         'unicorn/no-useless-undefined': 'off',
         'unicorn/prefer-optional-catch-binding': 'error',
+        'unicorn/no-object-as-default-parameter': 'off',
+        'unicorn/prefer-array-find': 'error',
 
         'array-func/from-map': 'error',
         'array-func/no-unnecessary-this-arg': 'error',

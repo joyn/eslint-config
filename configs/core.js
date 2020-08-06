@@ -487,6 +487,10 @@ module.exports = {
 
         'default-case-last': 'error',
         'no-restricted-exports': 'off',
-        'no-useless-backreference': 'error'
+        'no-useless-backreference': 'error',
+        'id-denylist': 'off',
+        'no-loss-of-precision': 'off',
+        'no-promise-executor-return': 'error',
+        'no-unreachable-loop': 'error'
     }
 };

@@ -268,6 +268,11 @@ module.exports = {
         '@typescript-eslint/typedef': ['off'],
         '@typescript-eslint/unbound-method': ['off'],
         'lines-between-class-members': 'off',
-        '@typescript-eslint/lines-between-class-members': ['error']
+        '@typescript-eslint/lines-between-class-members': ['error'],
+        '@typescript-eslint/ban-tslint-comment': ['off'],
+        '@typescript-eslint/no-confusing-non-null-assertion': ['off'],
+        '@typescript-eslint/prefer-enum-initializers': ['off'],
+        '@typescript-eslint/prefer-literal-enum-member': ['off'],
+        '@typescript-eslint/no-loss-of-precision': ['off']
     }
 };

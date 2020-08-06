@@ -28,6 +28,7 @@ module.exports = {
         'mocha/valid-suite-description': 'off',
         'mocha/valid-test-description': 'off',
         'mocha/no-async-describe': 'error',
+        'mocha/no-exports': 'error',
 
         'mocha/no-return-from-async': 'off'
     }
