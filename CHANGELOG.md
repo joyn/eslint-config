@@ -1,3 +1,13 @@
+## 0.7.0 (August 06, 2020)
+
+### Features
+
+* Add new `jest` environment
+
+### Dependency Updates
+
+* Update plugins
+
 ## 0.6.1 (July 01, 2020)
 
 ### Bug Fixes
