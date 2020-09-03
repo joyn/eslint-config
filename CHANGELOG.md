@@ -1,3 +1,9 @@
+## 0.8.0 (September 03, 2020)
+
+### Dependency Updates
+
+* Update plugins and its configs accordingly
+
 ## 0.7.0 (August 06, 2020)
 
 ### Features
