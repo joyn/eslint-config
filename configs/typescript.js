@@ -193,7 +193,6 @@ module.exports = {
         '@typescript-eslint/unified-signatures': 'error',
         'no-useless-catch': 'error',
         'valid-jsdoc': 'off',
-        'no-redeclare': 'off',
         'no-undef': 'off',
         'no-unused-expressions': 'off',
         '@typescript-eslint/no-object-literal-type-assertion': 'off',
@@ -273,6 +272,12 @@ module.exports = {
         '@typescript-eslint/no-confusing-non-null-assertion': ['off'],
         '@typescript-eslint/prefer-enum-initializers': ['off'],
         '@typescript-eslint/prefer-literal-enum-member': ['off'],
-        '@typescript-eslint/no-loss-of-precision': ['off']
+        '@typescript-eslint/no-loss-of-precision': ['off'],
+        '@typescript-eslint/no-implicit-any-catch': ['error'],
+        'no-redeclare': ['off'],
+        '@typescript-eslint/no-redeclare': ['error', { builtinGlobals: true }],
+        'no-shadow': ['off'],
+        '@typescript-eslint/no-shadow': ['error', { builtinGlobals: true }],
+        '@typescript-eslint/consistent-type-imports': ['off']
     }
 };
