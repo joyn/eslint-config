@@ -278,6 +278,12 @@ module.exports = {
         '@typescript-eslint/no-redeclare': ['error', { builtinGlobals: true }],
         'no-shadow': ['off'],
         '@typescript-eslint/no-shadow': ['error', { builtinGlobals: true }],
-        '@typescript-eslint/consistent-type-imports': ['off']
+        '@typescript-eslint/consistent-type-imports': ['off'],
+        'comma-dangle': ['off'],
+        '@typescript-eslint/comma-dangle': ['error', 'never'],
+        '@typescript-eslint/consistent-indexed-object-style': 'off',
+        '@typescript-eslint/no-loop-func': 'off',
+        'no-duplicate-imports': 'off',
+        '@typescript-eslint/no-duplicate-imports': ['error']
     }
 };

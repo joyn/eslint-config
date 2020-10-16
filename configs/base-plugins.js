@@ -169,6 +169,7 @@ module.exports = {
         'unicorn/prefer-optional-catch-binding': 'error',
         'unicorn/no-object-as-default-parameter': 'off',
         'unicorn/prefer-array-find': 'error',
+        'unicorn/import-style': 'off',
 
         'array-func/from-map': 'error',
         'array-func/no-unnecessary-this-arg': 'error',
