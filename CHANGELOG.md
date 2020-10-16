@@ -1,3 +1,13 @@
+## 0.9.0 (October 16, 2020)
+
+### Bug Fixes
+
+* Make mocha/no-exclusive-tests report errors instead of warnings
+
+### Dependency Updates
+
+* Update plugins and its configs accordingly
+
 ## 0.8.0 (September 03, 2020)
 
 ### Dependency Updates
