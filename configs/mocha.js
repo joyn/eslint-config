@@ -10,7 +10,7 @@ module.exports = {
 
         'mocha/handle-done-callback': 'error',
         'mocha/max-top-level-suites': 'off',
-        'mocha/no-exclusive-tests': 'warn',
+        'mocha/no-exclusive-tests': 'error',
         'mocha/no-global-tests': 'error',
         'mocha/no-hooks': 'off',
         'mocha/no-hooks-for-single-case': 'warn',
