@@ -170,6 +170,9 @@ module.exports = {
         'unicorn/no-object-as-default-parameter': 'off',
         'unicorn/prefer-array-find': 'error',
         'unicorn/import-style': 'off',
+        'unicorn/numeric-separators-style': 'error',
+        'unicorn/prefer-math-trunc': 'error',
+        'unicorn/prefer-ternary': 'error',
 
         'array-func/from-map': 'error',
         'array-func/no-unnecessary-this-arg': 'error',

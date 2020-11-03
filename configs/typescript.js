@@ -284,6 +284,8 @@ module.exports = {
         '@typescript-eslint/consistent-indexed-object-style': 'off',
         '@typescript-eslint/no-loop-func': 'off',
         'no-duplicate-imports': 'off',
-        '@typescript-eslint/no-duplicate-imports': ['error']
+        '@typescript-eslint/no-duplicate-imports': ['error'],
+        '@typescript-eslint/space-infix-ops': 'off',
+        '@typescript-eslint/no-unnecessary-type-constraint': 'error'
     }
 };
