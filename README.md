@@ -49,3 +49,4 @@ The following `.eslintrc.json` config file configures a node project with mixed 
 * `joyn/presets/ava`: requires additional dependencies `npm i -D eslint-plugin-ava`
 * `joyn/presets/mocha-chai`: requires additional dependencies `npm i -D eslint-plugin-mocha`
 * `joyn/presets/jest`: requires additional dependencies `npm i -D eslint-plugin-jest`
+* `joyn/presets/react`: requires additional dependencies `npm i -D eslint-plugin-react eslint-plugin-react-hooks`
