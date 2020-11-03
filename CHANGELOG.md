@@ -1,3 +1,13 @@
+## 0.10.0 (November 03, 2020)
+
+### Features
+
+* Add react preset
+
+### Dependency Updates
+
+* Update plugins and its configs accordingly
+
 ## 0.9.0 (October 16, 2020)
 
 ### Bug Fixes
