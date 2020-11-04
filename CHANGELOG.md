@@ -1,3 +1,9 @@
+## 0.11.0 (November 04, 2020)
+
+### Enhancements
+
+* Set ecmaVersion to 2021
+
 ## 0.10.0 (November 03, 2020)
 
 ### Features
