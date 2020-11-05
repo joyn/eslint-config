@@ -193,7 +193,6 @@ module.exports = {
         '@typescript-eslint/unified-signatures': 'error',
         'no-useless-catch': 'error',
         'valid-jsdoc': 'off',
-        'no-undef': 'off',
         'no-unused-expressions': 'off',
         '@typescript-eslint/no-object-literal-type-assertion': 'off',
         '@typescript-eslint/require-await': 'off',
