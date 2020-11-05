@@ -1,3 +1,9 @@
+## 0.11.2 (November 05, 2020)
+
+### Bug Fixes
+
+* Provide mocha-chai-typescript preset which disables no-unsed-expressions
+
 ## 0.11.1 (November 05, 2020)
 
 ### Bug Fixes
