@@ -1,3 +1,9 @@
+## 0.11.3 (November 05, 2020)
+
+### Bug Fixes
+
+* Fix rule name
+
 ## 0.11.2 (November 05, 2020)
 
 ### Bug Fixes
