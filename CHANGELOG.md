@@ -1,3 +1,9 @@
+## 0.11.1 (November 05, 2020)
+
+### Bug Fixes
+
+* Enable rules that have been accidentally disabled for typescript
+
 ## 0.11.0 (November 04, 2020)
 
 ### Enhancements
