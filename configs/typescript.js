@@ -83,6 +83,14 @@ module.exports = {
             {
                 selector: 'typeLike',
                 format: ['PascalCase']
+            },
+            {
+                selector: 'interface',
+                format: ['PascalCase'],
+                custom: {
+                    regex: '^I[A-Z]',
+                    match: false
+                }
             }
         ],
         '@typescript-eslint/consistent-type-assertions': [
