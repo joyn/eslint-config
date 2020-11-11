@@ -37,7 +37,6 @@ module.exports = {
         'react/jsx-newline': 'off',
         'react/jsx-no-bind': 'off',
         'react/jsx-no-comment-textnodes': 'error',
-        'react/jsx-no-constructed-context-values': 'error',
         'react/jsx-no-duplicate-props': 'error',
         'react/jsx-no-literals': 'error',
         'react/jsx-no-script-url': 'error',
