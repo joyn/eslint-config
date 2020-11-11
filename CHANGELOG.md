@@ -1,3 +1,17 @@
+## 0.12.0 (November 11, 2020)
+
+### Bug Fixes
+
+* Remove config for non-published react rule
+
+### Enhancements
+
+* Use es2021 env
+
+### Features
+
+* Add mocha preset
+
 ## 0.11.3 (November 05, 2020)
 
 ### Bug Fixes
