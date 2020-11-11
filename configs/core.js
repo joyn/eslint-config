@@ -13,7 +13,7 @@ module.exports = {
     },
     env: {
         builtin: true,
-        es6: true
+        es2021: true
     },
     rules: {
         'array-callback-return': 'error',
