@@ -1,3 +1,9 @@
+## 0.13.0 (November 24, 2020)
+
+### Breaking Changes
+
+* Set @typescript-eslint/array-type to "array"
+
 ## 0.12.0 (November 11, 2020)
 
 ### Bug Fixes
