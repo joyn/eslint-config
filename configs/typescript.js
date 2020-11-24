@@ -25,7 +25,7 @@ module.exports = {
         '@typescript-eslint/array-type': [
             'error',
             {
-                default: 'array-simple'
+                default: 'array'
             }
         ],
         '@typescript-eslint/await-thenable': 'error',
