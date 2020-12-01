@@ -491,6 +491,7 @@ module.exports = {
         'id-denylist': 'off',
         'no-loss-of-precision': 'off',
         'no-promise-executor-return': 'error',
-        'no-unreachable-loop': 'error'
+        'no-unreachable-loop': 'error',
+        'no-nonoctal-decimal-escape': 'error'
     }
 };
