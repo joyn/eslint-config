@@ -1,3 +1,9 @@
+## 0.14.0 (December 01, 2020)
+
+### Dependency Updates
+
+* Update eslint and plugins and its configs accordingly
+
 ## 0.13.0 (November 24, 2020)
 
 ### Breaking Changes
