@@ -298,6 +298,7 @@ module.exports = {
                 ignoreArrowShorthand: false,
                 ignoreVoidOperator: false
             }
-        ]
+        ],
+        '@typescript-eslint/non-nullable-type-assertion-style': 'off'
     }
 };

@@ -492,6 +492,7 @@ module.exports = {
         'no-loss-of-precision': 'off',
         'no-promise-executor-return': 'error',
         'no-unreachable-loop': 'error',
-        'no-nonoctal-decimal-escape': 'error'
+        'no-nonoctal-decimal-escape': 'error',
+        'no-unsafe-optional-chaining': 'error'
     }
 };
