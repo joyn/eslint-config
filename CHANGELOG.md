@@ -1,3 +1,9 @@
+## 0.15.0 (December 29, 2020)
+
+### Dependency Updates
+
+* Update plugins and its configs accordingly
+
 ## 0.14.0 (December 01, 2020)
 
 ### Dependency Updates
