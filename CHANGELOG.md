@@ -1,3 +1,9 @@
+## 0.16.0 (March 01, 2021)
+
+### Dependency Updates
+
+* Update plugins and configure new rules
+
 ## 0.15.0 (December 29, 2020)
 
 ### Dependency Updates
