@@ -96,6 +96,7 @@ module.exports = {
         'react/static-property-placement': 'off',
         'react/style-prop-object': 'off',
         'react/void-dom-elements-no-children': 'error',
+        'react/jsx-no-constructed-context-values': 'error',
 
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error'

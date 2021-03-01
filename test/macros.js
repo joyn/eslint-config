@@ -40,6 +40,12 @@ function testPluginRulesConfigured(t, { ruleConfigSet, rules, pluginName }) {
     const ruleNames = Object.keys(rules);
 
     ruleNames.forEach((ruleName) => {
+        const rule = rules[ruleName];
+
+        if (rule.meta && rule.meta.deprecated) {
+            return;
+        }
+
         t.assert(
             isPluginRuleConfigured(ruleConfigSet, ruleName, pluginName),
             `Rule ${pluginName}/${ruleName} not configured`

@@ -177,6 +177,13 @@ module.exports = {
         'unicorn/no-lonely-if': 'error',
         'unicorn/empty-brace-spaces': 'off',
         'unicorn/prefer-date-now': 'error',
+        'unicorn/consistent-destructuring': 'off',
+        'unicorn/no-array-for-each': 'off',
+        'unicorn/no-array-push-push': 'error',
+        'unicorn/no-new-array': 'error',
+        'unicorn/no-this-assignment': 'error',
+        'unicorn/prefer-array-index-of': 'error',
+        'unicorn/prefer-regexp-test': 'error',
 
         'array-func/from-map': 'error',
         'array-func/no-unnecessary-this-arg': 'error',
