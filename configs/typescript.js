@@ -299,6 +299,28 @@ module.exports = {
                 ignoreVoidOperator: false
             }
         ],
-        '@typescript-eslint/non-nullable-type-assertion-style': 'off'
+        '@typescript-eslint/non-nullable-type-assertion-style': 'off',
+        '@typescript-eslint/object-curly-spacing': 'off',
+        '@typescript-eslint/sort-type-union-intersection-members': [
+            'error',
+            {
+                checkIntersections: true,
+                checkUnions: true,
+                groupOrder: [
+                    'named',
+                    'keyword',
+                    'operator',
+                    'literal',
+                    'function',
+                    'import',
+                    'conditional',
+                    'object',
+                    'tuple',
+                    'intersection',
+                    'union',
+                    'nullish'
+                ]
+            }
+        ]
     }
 };
