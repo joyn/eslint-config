@@ -321,6 +321,7 @@ module.exports = {
                     'nullish'
                 ]
             }
-        ]
+        ],
+        '@typescript-eslint/no-unsafe-argument': 'error'
     }
 };

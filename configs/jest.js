@@ -63,6 +63,7 @@ module.exports = {
         'jest/valid-expect': ['off'],
         'jest/valid-title': ['off'],
         'jest/no-if': ['off'],
-        'jest/no-done-callback': ['off']
+        'jest/no-done-callback': ['off'],
+        'jest/unbound-method': 'off'
     }
 };

@@ -184,6 +184,8 @@ module.exports = {
         'unicorn/no-this-assignment': 'error',
         'unicorn/prefer-array-index-of': 'error',
         'unicorn/prefer-regexp-test': 'error',
+        'unicorn/no-static-only-class': 'error',
+        'unicorn/prefer-array-flat': 'error',
 
         'array-func/from-map': 'error',
         'array-func/no-unnecessary-this-arg': 'error',
