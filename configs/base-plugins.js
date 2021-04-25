@@ -186,6 +186,9 @@ module.exports = {
         'unicorn/prefer-regexp-test': 'error',
         'unicorn/no-static-only-class': 'error',
         'unicorn/prefer-array-flat': 'error',
+        'unicorn/prefer-module': 'off',
+        'unicorn/prefer-node-protocol': 'off',
+        'unicorn/prefer-switch': 'off',
 
         'array-func/from-map': 'error',
         'array-func/no-unnecessary-this-arg': 'error',
