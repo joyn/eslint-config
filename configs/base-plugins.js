@@ -189,6 +189,7 @@ module.exports = {
         'unicorn/prefer-module': 'off',
         'unicorn/prefer-node-protocol': 'off',
         'unicorn/prefer-switch': 'off',
+        'unicorn/no-document-cookie': 'off',
 
         'array-func/from-map': 'error',
         'array-func/no-unnecessary-this-arg': 'error',
