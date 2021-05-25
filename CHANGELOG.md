@@ -1,3 +1,13 @@
+## 0.20.0 (May 25, 2021)
+
+### Bug Fixes
+
+-   Make star-spacing rule compatible with prettier
+
+### Dependency Updates
+
+-   Update plugins and configure new rules
+
 ## 0.19.0 (May 10, 2021)
 
 ### Dependency Updates
