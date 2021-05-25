@@ -110,6 +110,8 @@ module.exports = {
                 ignore: ['mocha', 'aws-lambda']
             }
         ],
+        'import/no-relative-packages': 'off',
+        'import/no-import-module-exports': 'off',
 
         'unicorn/string-content': 'off',
         'unicorn/regex-shorthand': 'off',
