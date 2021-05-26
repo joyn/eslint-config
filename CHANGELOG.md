@@ -1,3 +1,9 @@
+## 0.21.0 (May 26, 2021)
+
+### Dependency Updates
+
+-   Update eslint-plugin-mocha
+
 ## 0.20.0 (May 25, 2021)
 
 ### Bug Fixes
