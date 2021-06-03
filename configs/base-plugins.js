@@ -192,6 +192,10 @@ module.exports = {
         'unicorn/prefer-node-protocol': 'off',
         'unicorn/prefer-switch': 'off',
         'unicorn/no-document-cookie': 'off',
+        'unicorn/require-array-join-separator': 'off',
+        'unicorn/require-number-to-fixed-digits-argument': 'off',
+        'unicorn/prefer-prototype-methods': 'off',
+        'unicorn/prefer-object-has-own': 'off',
 
         'array-func/from-map': 'error',
         'array-func/no-unnecessary-this-arg': 'error',
