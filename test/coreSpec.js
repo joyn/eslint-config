@@ -3,7 +3,6 @@
 const test = require('ava');
 const eslintDefaults = require('eslint/conf/eslint-all');
 const eslintReplacements = require('eslint/conf/replacements.json');
-const ecmaFeatures = require('espree/lib/features');
 const coreConfig = require('../configs/core');
 const { testCoreRulesConfigured } = require('./macros');
 
@@ -31,13 +30,5 @@ test('doesn’t contain configs for deprecated core rules', (t) => {
 
     rules.forEach((ruleName) => {
         t.assert(!configuredRules.includes(ruleName));
-    });
-});
-
-test('configures all ECMA features', (t) => {
-    const features = Object.keys(ecmaFeatures);
-
-    features.forEach((featureName) => {
-        t.assert(coreConfig.parserOptions.ecmaFeatures.hasOwnProperty(featureName));
     });
 });

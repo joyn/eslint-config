@@ -196,6 +196,12 @@ module.exports = {
         'unicorn/require-number-to-fixed-digits-argument': 'off',
         'unicorn/prefer-prototype-methods': 'off',
         'unicorn/prefer-object-has-own': 'off',
+        'unicorn/no-array-method-this-argument': 'off',
+        'unicorn/require-post-message-target-origin': 'error',
+
+        // enable in the future
+        'unicorn/prefer-top-level-await': 'off',
+        'unicorn/prefer-at': 'off',
 
         'array-func/from-map': 'error',
         'array-func/no-unnecessary-this-arg': 'error',
