@@ -1,3 +1,13 @@
+## 0.24.0 (Aug 02, 2021)
+
+### Dependency Updates
+
+-   Update plugins and configure new rules
+
+### Breaking Changes
+
+-   Drop node v10 and v12 support
+
 ## 0.23.0 (July 01, 2021)
 
 ### Dependency Updates
