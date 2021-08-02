@@ -64,6 +64,7 @@ module.exports = {
         'jest/valid-title': ['off'],
         'jest/no-if': ['off'],
         'jest/no-done-callback': ['off'],
-        'jest/unbound-method': 'off'
+        'jest/unbound-method': 'off',
+        'jest/max-nested-describe': ['error', { max: 4 }]
     }
 };
