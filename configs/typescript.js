@@ -322,6 +322,7 @@ module.exports = {
                 ]
             }
         ],
-        '@typescript-eslint/no-unsafe-argument': 'error'
+        '@typescript-eslint/no-unsafe-argument': 'error',
+        '@typescript-eslint/prefer-return-this-type': 'off'
     }
 };

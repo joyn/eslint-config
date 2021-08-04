@@ -129,6 +129,7 @@ module.exports = {
         'unicorn/escape-case': 'error',
         'unicorn/expiring-todo-comments': 'error',
         'unicorn/explicit-length-check': 'error',
+        'unicorn/no-useless-length-check': 'error',
         'unicorn/filename-case': 'off',
         'unicorn/import-index': 'error',
         'unicorn/new-for-builtins': 'error',
@@ -197,6 +198,8 @@ module.exports = {
         'unicorn/prefer-object-has-own': 'off',
         'unicorn/no-array-method-this-argument': 'off',
         'unicorn/require-post-message-target-origin': 'error',
+        'unicorn/no-useless-spread': 'error',
+        'unicorn/prefer-object-from-entries': 'error',
 
         // enable in the future
         'unicorn/prefer-top-level-await': 'off',
