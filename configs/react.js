@@ -98,6 +98,7 @@ module.exports = {
         'react/void-dom-elements-no-children': 'error',
         'react/jsx-no-constructed-context-values': 'error',
         'react/no-unstable-nested-components': 'error',
+        'react/prefer-exact-props': 'off',
 
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error'

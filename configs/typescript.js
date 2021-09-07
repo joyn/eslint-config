@@ -323,6 +323,8 @@ module.exports = {
             }
         ],
         '@typescript-eslint/no-unsafe-argument': 'error',
-        '@typescript-eslint/prefer-return-this-type': 'off'
+        '@typescript-eslint/prefer-return-this-type': 'off',
+        '@typescript-eslint/no-meaningless-void-operator': 'error',
+        '@typescript-eslint/padding-line-between-statements': 'off'
     }
 };
