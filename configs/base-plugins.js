@@ -200,6 +200,8 @@ module.exports = {
         'unicorn/require-post-message-target-origin': 'error',
         'unicorn/no-useless-spread': 'error',
         'unicorn/prefer-object-from-entries': 'error',
+        'unicorn/no-useless-fallback-in-spread': 'error',
+        'unicorn/no-invalid-remove-event-listener': 'off',
 
         // enable in the future
         'unicorn/prefer-top-level-await': 'off',
