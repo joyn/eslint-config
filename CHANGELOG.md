@@ -1,3 +1,9 @@
+## 0.28.0 (Sep 22, 2021)
+
+### Dependency Updates
+
+-   Update plugins, delete old rules and configure new rules
+
 ## 0.27.0 (Sep 13, 2021)
 
 ### Dependency Updates
