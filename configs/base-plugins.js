@@ -202,6 +202,9 @@ module.exports = {
         'unicorn/prefer-object-from-entries': 'error',
         'unicorn/no-useless-fallback-in-spread': 'error',
         'unicorn/no-invalid-remove-event-listener': 'off',
+        'unicorn/template-indent': 'error',
+        'unicorn/no-empty-file': 'error',
+        'unicorn/prefer-export-from': 'error',
 
         // enable in the future
         'unicorn/prefer-top-level-await': 'off',
