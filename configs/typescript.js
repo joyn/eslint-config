@@ -144,7 +144,7 @@ module.exports = {
             'error',
             {
                 checksConditionals: true,
-                checksVoidReturn: false
+                checksVoidReturn: true
             }
         ],
 
