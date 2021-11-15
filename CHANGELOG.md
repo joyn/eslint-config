@@ -1,3 +1,10 @@
+## 0.29.0 (Nov 15, 2021)
+
+### Dependency Updates
+
+-   Enable checking void return type for @typescript-eslint/no-misused-promises
+-   Update plugins, delete old rules and configure new rules
+
 ## 0.28.0 (Sep 22, 2021)
 
 ### Dependency Updates
