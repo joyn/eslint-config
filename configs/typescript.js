@@ -258,7 +258,6 @@ module.exports = {
         '@typescript-eslint/no-unsafe-call': ['warn'],
         '@typescript-eslint/no-unsafe-member-access': ['warn'],
         '@typescript-eslint/no-unsafe-return': ['warn'],
-        '@typescript-eslint/no-unused-vars-experimental': ['off'],
         'no-use-before-define': 'off',
         '@typescript-eslint/no-use-before-define': ['error'],
         '@typescript-eslint/prefer-as-const': ['error'],
@@ -325,6 +324,9 @@ module.exports = {
         '@typescript-eslint/no-unsafe-argument': 'error',
         '@typescript-eslint/prefer-return-this-type': 'off',
         '@typescript-eslint/no-meaningless-void-operator': 'error',
-        '@typescript-eslint/padding-line-between-statements': 'off'
+        '@typescript-eslint/padding-line-between-statements': 'off',
+        '@typescript-eslint/no-restricted-imports': 'warn',
+        '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
+        '@typescript-eslint/consistent-type-exports': 'error'
     }
 };
