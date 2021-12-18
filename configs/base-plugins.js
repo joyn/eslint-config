@@ -205,6 +205,8 @@ module.exports = {
         'unicorn/template-indent': 'error',
         'unicorn/no-empty-file': 'error',
         'unicorn/prefer-export-from': 'error',
+        'unicorn/no-await-expression-member': 'error',
+        'unicorn/prefer-code-point': 'error',
 
         // enable in the future
         'unicorn/prefer-top-level-await': 'off',

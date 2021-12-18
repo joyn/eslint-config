@@ -493,6 +493,10 @@ module.exports = {
         'no-promise-executor-return': 'error',
         'no-unreachable-loop': 'error',
         'no-nonoctal-decimal-escape': 'error',
-        'no-unsafe-optional-chaining': 'error'
+        'no-unsafe-optional-chaining': 'error',
+        'no-unused-private-class-members': 'error',
+
+        // enable in the future (ES2022)
+        'prefer-object-has-own': 'off'
     }
 };

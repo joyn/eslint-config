@@ -100,6 +100,9 @@ module.exports = {
         'react/no-unstable-nested-components': 'error',
         'react/prefer-exact-props': 'off',
         'react/no-namespace': 'error',
+        'react/no-invalid-html-attribute': 'off',
+        'react/no-arrow-function-lifecycle': 'off',
+        'react/no-unused-class-component-methods': 'off',
 
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error'
