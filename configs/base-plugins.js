@@ -207,6 +207,10 @@ module.exports = {
         'unicorn/prefer-export-from': 'error',
         'unicorn/no-await-expression-member': 'error',
         'unicorn/prefer-code-point': 'error',
+        'unicorn/no-thenable': 'off',
+        'unicorn/no-useless-promise-resolve-reject': 'error',
+        'unicorn/prefer-json-parse-buffer': 'off',
+        'unicorn/relative-url-style': 'off',
 
         // enable in the future
         'unicorn/prefer-top-level-await': 'off',
