@@ -211,6 +211,7 @@ module.exports = {
         'unicorn/no-useless-promise-resolve-reject': 'error',
         'unicorn/prefer-json-parse-buffer': 'off',
         'unicorn/relative-url-style': 'off',
+        'unicorn/text-encoding-identifier-case': 'off',
 
         // enable in the future
         'unicorn/prefer-top-level-await': 'off',

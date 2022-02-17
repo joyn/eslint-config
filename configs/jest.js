@@ -62,6 +62,10 @@ module.exports = {
         'jest/unbound-method': 'off',
         'jest/max-nested-describe': ['error', { max: 4 }],
         'jest/prefer-expect-resolves': 'error',
-        'jest/require-hook': 'warn'
+        'jest/require-hook': 'warn',
+        'jest/no-conditional-in-test': 'off',
+        'jest/prefer-comparison-matcher': 'off',
+        'jest/prefer-equality-matcher': 'off',
+        'jest/prefer-snapshot-hint': 'off'
     }
 };
