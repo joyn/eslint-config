@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-joyn",
-    "version": "0.32.0",
+    "version": "0.32.1",
     "description": "Shareable ESLint config presets for Joyn.",
     "main": "./presets/index.js",
     "files": [

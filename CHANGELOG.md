@@ -1,3 +1,9 @@
+## 0.32.1 (Feb 17, 2022)
+
+### Bug Fixes
+
+-   Fix peer dependency version number of eslint-plugin-unicorn
+
 ## 0.32.0 (Feb 17, 2022)
 
 ### Dependency Updates
