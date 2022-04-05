@@ -327,6 +327,9 @@ module.exports = {
         '@typescript-eslint/padding-line-between-statements': 'off',
         '@typescript-eslint/no-restricted-imports': 'warn',
         '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
-        '@typescript-eslint/consistent-type-exports': 'error'
+        '@typescript-eslint/consistent-type-exports': 'error',
+        '@typescript-eslint/no-redundant-type-constituents': 'error',
+        '@typescript-eslint/no-useless-empty-export': 'error',
+        '@typescript-eslint/space-before-blocks': 'off'
     }
 };

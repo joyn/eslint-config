@@ -212,6 +212,10 @@ module.exports = {
         'unicorn/prefer-json-parse-buffer': 'off',
         'unicorn/relative-url-style': 'off',
         'unicorn/text-encoding-identifier-case': 'off',
+        'unicorn/no-useless-switch-case': 'error',
+        'unicorn/prefer-modern-math-apis': 'error',
+        'unicorn/no-unreadable-iife': 'error',
+        'unicorn/prefer-native-coercion-functions': 'error',
 
         // enable in the future
         'unicorn/prefer-top-level-await': 'off',
