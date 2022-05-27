@@ -189,7 +189,7 @@ module.exports = {
         'unicorn/no-static-only-class': 'error',
         'unicorn/prefer-array-flat': 'error',
         'unicorn/prefer-module': 'off',
-        'unicorn/prefer-node-protocol': 'off',
+        'unicorn/prefer-node-protocol': 'error',
         'unicorn/prefer-switch': 'off',
         'unicorn/no-document-cookie': 'off',
         'unicorn/require-array-join-separator': 'off',
