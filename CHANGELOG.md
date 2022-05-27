@@ -1,3 +1,9 @@
+## 0.34.0 (May 27, 2022)
+
+### Enhancements
+
+-   Enable "prefer-node-protocol" rule
+
 ## 0.33.0 (April 05, 2022)
 
 ### Dependency Updates
