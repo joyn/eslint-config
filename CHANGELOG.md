@@ -1,3 +1,9 @@
+## 0.35.0 (June 30, 2022)
+
+### Dependency Updates
+
+-   Update ESLint, plugins and configure new rules
+
 ## 0.34.0 (May 27, 2022)
 
 ### Enhancements
