@@ -1,3 +1,9 @@
+## 0.36.0 (June 30, 2022)
+
+### Dependency Updates
+
+-   Update plugins
+
 ## 0.35.0 (June 30, 2022)
 
 ### Dependency Updates
