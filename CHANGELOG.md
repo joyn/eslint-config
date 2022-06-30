@@ -1,3 +1,9 @@
+## 0.36.1 (June 30, 2022)
+
+### Bug Fixes
+
+-   Configure new eslint-plugin-unicorn rules
+
 ## 0.36.0 (June 30, 2022)
 
 ### Dependency Updates
