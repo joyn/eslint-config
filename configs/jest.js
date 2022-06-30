@@ -66,6 +66,7 @@ module.exports = {
         'jest/no-conditional-in-test': 'off',
         'jest/prefer-comparison-matcher': 'off',
         'jest/prefer-equality-matcher': 'off',
-        'jest/prefer-snapshot-hint': 'off'
+        'jest/prefer-snapshot-hint': 'off',
+        'jest/prefer-hooks-in-order': 'off'
     }
 };

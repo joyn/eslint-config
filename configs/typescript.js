@@ -330,6 +330,9 @@ module.exports = {
         '@typescript-eslint/consistent-type-exports': 'error',
         '@typescript-eslint/no-redundant-type-constituents': 'error',
         '@typescript-eslint/no-useless-empty-export': 'error',
-        '@typescript-eslint/space-before-blocks': 'off'
+        '@typescript-eslint/space-before-blocks': 'off',
+        '@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
+        '@typescript-eslint/no-duplicate-enum-values': 'error',
+        '@typescript-eslint/parameter-properties': 'off'
     }
 };

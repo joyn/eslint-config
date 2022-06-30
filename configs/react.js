@@ -105,6 +105,7 @@ module.exports = {
         'react/no-unused-class-component-methods': 'off',
         'react/hook-use-state': 'off',
         'react/iframe-missing-sandbox': 'error',
+        'react/jsx-no-leaked-render': 'error',
 
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error'
