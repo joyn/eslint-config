@@ -216,6 +216,8 @@ module.exports = {
         'unicorn/prefer-modern-math-apis': 'error',
         'unicorn/no-unreadable-iife': 'error',
         'unicorn/prefer-native-coercion-functions': 'error',
+        'unicorn/prefer-event-target': 'off',
+        'unicorn/prefer-logical-operator-over-ternary': 'off',
 
         // enable in the future
         'unicorn/prefer-top-level-await': 'off',
