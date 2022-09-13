@@ -67,6 +67,9 @@ module.exports = {
         'jest/prefer-comparison-matcher': 'off',
         'jest/prefer-equality-matcher': 'off',
         'jest/prefer-snapshot-hint': 'off',
-        'jest/prefer-hooks-in-order': 'off'
+        'jest/prefer-hooks-in-order': 'off',
+        'jest/max-expects': 'off',
+        'jest/prefer-mock-promise-shorthand': 'off',
+        'jest/prefer-each': 'off'
     }
 };
