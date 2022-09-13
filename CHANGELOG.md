@@ -1,3 +1,14 @@
+## 0.37.0 (September 13, 2022)
+
+### Enhancements
+
+-   Add eslint-plugin-functional rules for typescript config
+-   Add eslint-plugin-sonarjs rules to base plugins
+
+### Dependency Updates
+
+-   Update plugins and configure new rules
+
 ## 0.36.1 (June 30, 2022)
 
 ### Bug Fixes
