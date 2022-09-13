@@ -9,7 +9,7 @@ This config aims for ES2015+ or TypeScript code. It supports various environment
 
 ## Install and Setup
 
-* Make sure to install all required peer dependencies along with this config: `npm i -D eslint-config-joyn eslint-plugin-prettier prettier eslint-plugin-unicorn eslint-plugin-promise eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-optimize-regex eslint-plugin-no-secrets eslint-plugin-array-func`
+* Make sure to install all required peer dependencies along with this config: `npm i -D eslint-config-joyn eslint-plugin-prettier prettier eslint-plugin-unicorn eslint-plugin-promise eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-optimize-regex eslint-plugin-no-secrets eslint-plugin-array-func eslint-plugin-sonarjs`
 * Add `extends: "joyn"` to your ESLint config.
 
 ## Specify Environments
@@ -44,7 +44,7 @@ The following `.eslintrc.json` config file configures a node project with mixed 
 * `joyn/presets/node`: requires additional dependencies `npm i -D eslint-plugin-node`
 * `joyn/presets/commonjs`
 * `joyn/presets/esm`
-* `joyn/presets/typescript`: requires additional dependencies `npm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin` and the use of [`--ext`](https://eslint.org/docs/user-guide/command-line-interface#ext) ESLint CLI option in order to lint `.ts` files
+* `joyn/presets/typescript`: requires additional dependencies `npm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-functional` and the use of [`--ext`](https://eslint.org/docs/user-guide/command-line-interface#ext) ESLint CLI option in order to lint `.ts` files
 * `joyn/presets/ava`: requires additional dependencies `npm i -D eslint-plugin-ava`
 * `joyn/presets/mocha-chai`: requires additional dependencies `npm i -D eslint-plugin-mocha`
 * `joyn/presets/jest`: requires additional dependencies `npm i -D eslint-plugin-jest`

@@ -8,6 +8,7 @@ const importPlugin = require('eslint-plugin-import');
 const eslintCommentsPlugin = require('eslint-plugin-eslint-comments');
 const optimizeRegexPlugin = require('eslint-plugin-optimize-regex');
 const arrayFuncPlugin = require('eslint-plugin-array-func');
+const sonarFuncPlugin = require('eslint-plugin-sonarjs');
 const basePluginsConfig = require('../configs/base-plugins');
 const { testPluginRulesConfigured } = require('./macros');
 
@@ -51,4 +52,10 @@ test('all eslint-plugin-array-func rules are configured', testPluginRulesConfigu
     ruleConfigSet: basePluginsConfig.rules,
     rules: arrayFuncPlugin.rules,
     pluginName: 'eslint-plugin-array-func'
+});
+
+test('all eslint-plugin-sonarjs rules are configured', testPluginRulesConfigured, {
+    ruleConfigSet: basePluginsConfig.rules,
+    rules: sonarFuncPlugin.rules,
+    pluginName: 'eslint-plugin-sonarjs'
 });
