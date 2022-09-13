@@ -68,9 +68,13 @@
         "eslint-plugin-react": "^7.31.8",
         "eslint-plugin-react-hooks": "^4.6.0",
         "eslint-plugin-unicorn": "^43.0.2",
+        "eslint-plugin-functional": "^4.3.0",
         "prettier": "^2.7.1"
     },
     "peerDependenciesMeta": {
+        "eslint-plugin-functional": {
+            "optional": true
+        },
         "eslint-plugin-node": {
             "optional": true
         },
@@ -107,5 +111,8 @@
     ],
     "publishConfig": {
         "access": "public"
+    },
+    "dependencies": {
+        "eslint-plugin-functional": "4.3.0"
     }
 }

@@ -8,7 +8,7 @@ module.exports = {
         jsx: false,
         project: 'tsconfig.json'
     },
-    plugins: ['@typescript-eslint'],
+    plugins: ['@typescript-eslint', 'functional'],
     settings: {
         'import/resolver': {
             node: {
@@ -333,6 +333,32 @@ module.exports = {
         '@typescript-eslint/space-before-blocks': 'off',
         '@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
         '@typescript-eslint/no-duplicate-enum-values': 'error',
-        '@typescript-eslint/parameter-properties': 'off'
+        '@typescript-eslint/parameter-properties': 'off',
+        'functional/prefer-readonly-type': [
+            'error',
+            {
+                allowLocalMutation: true,
+                allowMutableReturnType: false,
+                checkImplicit: false,
+                ignoreClass: false,
+                ignoreInterface: false,
+                ignoreCollections: false
+            }
+        ],
+        'functional/prefer-tacit': 'error',
+        'functional/no-this-expression': 'error',
+        'functional/functional-parameters': 'off',
+        'functional/immutable-data': 'off',
+        'functional/no-class': 'off',
+        'functional/no-conditional-statement': 'off',
+        'functional/no-expression-statement': 'off',
+        'functional/no-let': 'off',
+        'functional/no-loop-statement': 'off',
+        'functional/no-method-signature': 'off',
+        'functional/no-mixed-type': 'off',
+        'functional/no-promise-reject': 'off',
+        'functional/no-return-void': 'off',
+        'functional/no-throw-statement': 'off',
+        'functional/no-try-statement': 'off'
     }
 };
