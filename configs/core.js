@@ -496,6 +496,7 @@ module.exports = {
         'no-unsafe-optional-chaining': 'error',
         'no-unused-private-class-members': 'error',
         'no-constant-binary-expression': 'error',
+        'logical-assignment-operators': ['error', 'never'],
 
         // enable in the future (ES2022)
         'prefer-object-has-own': 'off'

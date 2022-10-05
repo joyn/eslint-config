@@ -227,6 +227,8 @@ module.exports = {
         'unicorn/prefer-native-coercion-functions': 'error',
         'unicorn/prefer-event-target': 'off',
         'unicorn/prefer-logical-operator-over-ternary': 'off',
+        'unicorn/no-unnecessary-await': 'error',
+        'unicorn/switch-case-braces': 'off',
 
         // enable in the future
         'unicorn/prefer-top-level-await': 'off',
