@@ -1,3 +1,13 @@
+## 0.39.0 (October 10, 2022)
+
+### Dependency Updates
+
+-   Update ESLint and plugins
+
+### Enhancements
+
+-   Set no-non-null-assertion to "error"
+
 ## 0.38.0 (October 05, 2022)
 
 ### Dependency Updates
