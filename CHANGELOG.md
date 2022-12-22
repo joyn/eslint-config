@@ -1,3 +1,9 @@
+## 0.40.0 (December 22, 2022)
+
+### Dependency Updates
+
+-   Update plugins and configure new rules
+
 ## 0.39.0 (October 10, 2022)
 
 ### Dependency Updates
