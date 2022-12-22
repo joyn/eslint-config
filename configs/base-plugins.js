@@ -229,8 +229,8 @@ module.exports = {
         'unicorn/prefer-logical-operator-over-ternary': 'off',
         'unicorn/no-unnecessary-await': 'error',
         'unicorn/switch-case-braces': 'off',
-        'unicorn/no-negated-condition': 'off',
-        'unicorn/no-typeof-undefined': 'off',
+        'unicorn/no-negated-condition': 'error',
+        'unicorn/no-typeof-undefined': 'error',
         'unicorn/prefer-set-size': 'error',
 
         // enable in the future
