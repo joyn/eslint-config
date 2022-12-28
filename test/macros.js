@@ -28,7 +28,7 @@ function testCoreRulesConfigured(t, { ruleConfigSet, rules }) {
     const ruleNames = Object.keys(rules);
 
     ruleNames.forEach((ruleName) => {
-        t.assert(isRuleConfigured(ruleConfigSet, ruleName), `Rule ${ruleName} not configured`);
+        t.true(isRuleConfigured(ruleConfigSet, ruleName), `Rule ${ruleName} not configured`);
     });
 }
 
@@ -46,7 +46,7 @@ function testPluginRulesConfigured(t, { ruleConfigSet, rules, pluginName }) {
             return;
         }
 
-        t.assert(isConfigured, `Rule ${shortPluginRuleName}} not configured`);
+        t.true(isConfigured, `Rule ${shortPluginRuleName}} not configured`);
     });
 }
 

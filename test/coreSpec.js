@@ -11,7 +11,7 @@ test('all eslint core rules are configured', testCoreRulesConfigured, {
     ruleConfigSet: coreConfig.rules
 });
 
-test('doesn’t contain configs for core rules that don’t exist (anymore)', (t) => {
+test('does not contain configs for core rules that do not exist (anymore)', (t) => {
     const rules = Object.keys(coreConfig.rules);
     const configuredRules = Object.keys(coreConfig.rules);
 
@@ -24,11 +24,11 @@ test('doesn’t contain configs for core rules that don’t exist (anymore)', (t
     });
 });
 
-test('doesn’t contain configs for deprecated core rules', (t) => {
+test('does not contain configs for deprecated core rules', (t) => {
     const rules = Object.keys(eslintReplacements.rules);
     const configuredRules = Object.keys(coreConfig.rules);
 
     rules.forEach((ruleName) => {
-        t.assert(!configuredRules.includes(ruleName));
+        t.false(configuredRules.includes(ruleName));
     });
 });
