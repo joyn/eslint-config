@@ -35,6 +35,7 @@ module.exports = {
         'promise/no-return-in-finally': 'error',
         'promise/valid-params': 'error',
         'promise/prefer-await-to-then': 'error',
+        'promise/no-multiple-resolved': 'error',
 
         'eslint-comments/disable-enable-pair': [
             'error',

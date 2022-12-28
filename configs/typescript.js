@@ -300,7 +300,7 @@ module.exports = {
         ],
         '@typescript-eslint/non-nullable-type-assertion-style': 'off',
         '@typescript-eslint/object-curly-spacing': 'off',
-        '@typescript-eslint/sort-type-union-intersection-members': [
+        '@typescript-eslint/sort-type-constituents': [
             'error',
             {
                 checkIntersections: true,
@@ -334,6 +334,7 @@ module.exports = {
         '@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
         '@typescript-eslint/no-duplicate-enum-values': 'error',
         '@typescript-eslint/parameter-properties': 'off',
+        '@typescript-eslint/no-unsafe-declaration-merging': 'error',
         'functional/prefer-readonly-type': [
             'error',
             {
