@@ -15,17 +15,13 @@ function extractShortName(pluginName) {
     return pluginName;
 }
 
+function isRuleDeprecated(rule) {
+    return rule.meta?.deprecated ?? false;
+}
+
 function isRuleConfigured(ruleConfigSet, ruleName) {
     const configuredRuleNames = Object.keys(ruleConfigSet);
     return configuredRuleNames.includes(ruleName);
-}
-
-function isPluginRuleConfigured(ruleConfigSet, ruleName, pluginName) {
-    const shortPluginName = extractShortName(pluginName);
-    const pluginRuleName = `${pluginName}/${ruleName}`;
-    const shortPluginRuleName = `${shortPluginName}/${ruleName}`;
-
-    return isRuleConfigured(ruleConfigSet, pluginRuleName) || isRuleConfigured(ruleConfigSet, shortPluginRuleName);
 }
 
 function testCoreRulesConfigured(t, { ruleConfigSet, rules }) {
@@ -38,21 +34,41 @@ function testCoreRulesConfigured(t, { ruleConfigSet, rules }) {
 
 function testPluginRulesConfigured(t, { ruleConfigSet, rules, pluginName }) {
     const ruleNames = Object.keys(rules);
+    const shortPluginName = extractShortName(pluginName);
 
     ruleNames.forEach((ruleName) => {
         const rule = rules[ruleName];
-        const isConfigured = isPluginRuleConfigured(ruleConfigSet, ruleName, pluginName);
+        const shortPluginRuleName = `${shortPluginName}/${ruleName}`;
+        const isConfigured = isRuleConfigured(ruleConfigSet, shortPluginRuleName);
 
-        if (rule.meta?.deprecated) {
-            t.false(isConfigured, `Rule ${pluginName}/${ruleName} is deprecated`);
+        if (isRuleDeprecated(rule)) {
+            t.false(isConfigured, `Rule ${shortPluginRuleName} is deprecated`);
             return;
         }
 
-        t.assert(isConfigured, `Rule ${pluginName}/${ruleName} not configured`);
+        t.assert(isConfigured, `Rule ${shortPluginRuleName}} not configured`);
+    });
+}
+
+function testContainsKnownPluginRules(t, { ruleConfigSet, pluginRules }) {
+    const pluginRuleNames = Object.keys(pluginRules).flatMap((pluginName) => {
+        const rules = pluginRules[pluginName];
+        const shortPluginName = extractShortName(pluginName);
+
+        return Object.keys(rules)
+            .filter((ruleName) => !isRuleDeprecated(rules[ruleName]))
+            .map((ruleName) => `${shortPluginName}/${ruleName}`);
+    });
+
+    const configuredRuleNames = Object.keys(ruleConfigSet);
+
+    pluginRuleNames.forEach((ruleName) => {
+        t.true(configuredRuleNames.includes(ruleName), `Rule ${ruleName} can be removed`);
     });
 }
 
 module.exports = {
     testCoreRulesConfigured,
-    testPluginRulesConfigured
+    testPluginRulesConfigured,
+    testContainsKnownPluginRules
 };
