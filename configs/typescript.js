@@ -250,7 +250,6 @@ module.exports = {
         '@typescript-eslint/no-namespace': ['off'],
         '@typescript-eslint/no-non-null-asserted-optional-chain': ['error'],
         '@typescript-eslint/no-non-null-assertion': ['error'],
-        '@typescript-eslint/no-parameter-properties': ['off'],
         '@typescript-eslint/no-type-alias': ['off'],
         '@typescript-eslint/no-unnecessary-boolean-literal-compare': ['error'],
         '@typescript-eslint/no-unnecessary-condition': ['error'],
@@ -277,7 +276,6 @@ module.exports = {
         '@typescript-eslint/prefer-enum-initializers': ['off'],
         '@typescript-eslint/prefer-literal-enum-member': ['off'],
         '@typescript-eslint/no-loss-of-precision': ['off'],
-        '@typescript-eslint/no-implicit-any-catch': ['error'],
         'no-redeclare': ['off'],
         '@typescript-eslint/no-redeclare': ['error', { builtinGlobals: true }],
         'no-shadow': ['off'],
@@ -288,7 +286,6 @@ module.exports = {
         '@typescript-eslint/consistent-indexed-object-style': 'off',
         '@typescript-eslint/no-loop-func': 'off',
         'no-duplicate-imports': 'off',
-        '@typescript-eslint/no-duplicate-imports': ['error'],
         '@typescript-eslint/space-infix-ops': 'off',
         '@typescript-eslint/no-unnecessary-type-constraint': 'error',
         '@typescript-eslint/no-confusing-void-expression': [

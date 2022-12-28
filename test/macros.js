@@ -41,15 +41,14 @@ function testPluginRulesConfigured(t, { ruleConfigSet, rules, pluginName }) {
 
     ruleNames.forEach((ruleName) => {
         const rule = rules[ruleName];
+        const isConfigured = isPluginRuleConfigured(ruleConfigSet, ruleName, pluginName);
 
-        if (rule.meta && rule.meta.deprecated) {
+        if (rule.meta?.deprecated) {
+            t.false(isConfigured, `Rule ${pluginName}/${ruleName} is deprecated`);
             return;
         }
 
-        t.assert(
-            isPluginRuleConfigured(ruleConfigSet, ruleName, pluginName),
-            `Rule ${pluginName}/${ruleName} not configured`
-        );
+        t.assert(isConfigured, `Rule ${pluginName}/${ruleName} not configured`);
     });
 }
 
