@@ -1,3 +1,9 @@
+## 1.0.0 (December 28, 2022)
+
+### Enhancements
+
+* Update ESLint, plugins and configure new rules ([#19](https://github.com/joyn/eslint-config/pull/19))
+
 ## 0.40.0 (December 22, 2022)
 
 ### Dependency Updates
