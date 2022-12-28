@@ -10,7 +10,7 @@ const optimizeRegexPlugin = require('eslint-plugin-optimize-regex');
 const arrayFuncPlugin = require('eslint-plugin-array-func');
 const sonarFuncPlugin = require('eslint-plugin-sonarjs');
 const basePluginsConfig = require('../configs/base-plugins');
-const { testPluginRulesConfigured } = require('./macros');
+const { testPluginRulesConfigured, testContainsKnownPluginRules } = require('./macros');
 
 test('all eslint-plugin-no-secrets rules are configured', testPluginRulesConfigured, {
     ruleConfigSet: basePluginsConfig.rules,
@@ -58,4 +58,18 @@ test('all eslint-plugin-sonarjs rules are configured', testPluginRulesConfigured
     ruleConfigSet: basePluginsConfig.rules,
     rules: sonarFuncPlugin.rules,
     pluginName: 'eslint-plugin-sonarjs'
+});
+
+test('contains only known plugin rules', testContainsKnownPluginRules, {
+    ruleConfigSet: basePluginsConfig.rules,
+    pluginRules: {
+        'eslint-plugin-no-secrets': noSecretsPlugin.rules,
+        'eslint-plugin-unicorn': unicornPlugin.rules,
+        'eslint-plugin-promise': promisePlugin.rules,
+        'eslint-plugin-import': importPlugin.rules,
+        'eslint-plugin-eslint-comments': eslintCommentsPlugin.rules,
+        'eslint-plugin-optimize-regex': optimizeRegexPlugin.rules,
+        'eslint-plugin-array-func': arrayFuncPlugin.rules,
+        'eslint-plugin-sonarjs': sonarFuncPlugin.rules
+    }
 });

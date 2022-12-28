@@ -35,6 +35,7 @@ module.exports = {
         'promise/no-return-in-finally': 'error',
         'promise/valid-params': 'error',
         'promise/prefer-await-to-then': 'error',
+        'promise/no-multiple-resolved': 'error',
 
         'eslint-comments/disable-enable-pair': [
             'error',
@@ -51,7 +52,6 @@ module.exports = {
         'eslint-comments/no-use': 'off',
         'eslint-comments/require-description': 'off',
 
-        'import/imports-first': 'off',
         'import/no-deprecated': 'off',
         'import/exports-last': 'off',
         'import/dynamic-import-chunkname': 'off',
@@ -123,7 +123,6 @@ module.exports = {
         'import/no-import-module-exports': 'off',
 
         'unicorn/string-content': 'off',
-        'unicorn/regex-shorthand': 'off',
         'unicorn/prefer-string-trim-start-end': 'error',
         'unicorn/prefer-set-has': 'error',
         'unicorn/prefer-string-replace-all': 'error',
@@ -140,7 +139,6 @@ module.exports = {
         'unicorn/explicit-length-check': 'error',
         'unicorn/no-useless-length-check': 'error',
         'unicorn/filename-case': 'off',
-        'unicorn/import-index': 'error',
         'unicorn/new-for-builtins': 'error',
         'unicorn/no-abusive-eslint-disable': 'error',
         'unicorn/no-instanceof-array': 'error',
@@ -204,7 +202,6 @@ module.exports = {
         'unicorn/require-array-join-separator': 'off',
         'unicorn/require-number-to-fixed-digits-argument': 'off',
         'unicorn/prefer-prototype-methods': 'off',
-        'unicorn/prefer-object-has-own': 'off',
         'unicorn/no-array-method-this-argument': 'off',
         'unicorn/require-post-message-target-origin': 'error',
         'unicorn/no-useless-spread': 'error',

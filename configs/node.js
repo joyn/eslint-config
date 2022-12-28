@@ -52,8 +52,6 @@ module.exports = {
         'node/no-unpublished-import': 'off',
         'node/no-unpublished-require': 'off',
         'node/process-exit-as-throw': 'error',
-        'node/shebang': 'off',
-        'node/no-hide-core-modules': 'off',
-        'node/no-unsupported-features': 'off'
+        'node/shebang': 'off'
     }
 };

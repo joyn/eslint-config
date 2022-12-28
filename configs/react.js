@@ -51,7 +51,6 @@ module.exports = {
         'react/jsx-props-no-spreading': 'error',
         'react/jsx-sort-default-props': 'off',
         'react/jsx-sort-props': 'off',
-        'react/jsx-space-before-closing': 'off',
         'react/jsx-tag-spacing': 'off',
         'react/jsx-uses-react': 'error',
         'react/jsx-uses-vars': 'error',
