@@ -1,3 +1,9 @@
+## 1.0.1 (December 29, 2022)
+
+### Bug Fixes
+
+* Fix peer dependencies versions ([#20](https://github.com/joyn/eslint-config/pull/20))
+
 ## 1.0.0 (December 28, 2022)
 
 ### Enhancements
