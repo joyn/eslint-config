@@ -70,6 +70,7 @@ module.exports = {
         'jest/max-expects': 'off',
         'jest/prefer-mock-promise-shorthand': 'off',
         'jest/prefer-each': 'off',
-        'jest/no-restricted-jest-methods': 'off'
+        'jest/no-restricted-jest-methods': 'off',
+        'jest/no-untyped-mock-factory': 'off'
     }
 };
