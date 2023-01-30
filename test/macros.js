@@ -46,7 +46,7 @@ function testPluginRulesConfigured(t, { ruleConfigSet, rules, pluginName }) {
             return;
         }
 
-        t.true(isConfigured, `Rule ${shortPluginRuleName}} not configured`);
+        t.true(isConfigured, `Rule ${shortPluginRuleName} not configured`);
     });
 }
 

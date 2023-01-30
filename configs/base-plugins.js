@@ -121,6 +121,8 @@ module.exports = {
         ],
         'import/no-relative-packages': 'off',
         'import/no-import-module-exports': 'off',
+        'import/no-empty-named-blocks': 'error',
+        'import/consistent-type-specifier-style': 'off',
 
         'unicorn/string-content': 'off',
         'unicorn/prefer-string-trim-start-end': 'error',

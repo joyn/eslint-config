@@ -49,7 +49,6 @@ module.exports = {
         'react/jsx-fragments': ['error', 'element'],
         'react/jsx-props-no-multi-spaces': 'off',
         'react/jsx-props-no-spreading': 'error',
-        'react/jsx-sort-default-props': 'off',
         'react/jsx-sort-props': 'off',
         'react/jsx-tag-spacing': 'off',
         'react/jsx-uses-react': 'error',
@@ -105,6 +104,8 @@ module.exports = {
         'react/hook-use-state': 'off',
         'react/iframe-missing-sandbox': 'error',
         'react/jsx-no-leaked-render': 'error',
+        'react/no-object-type-as-default-prop': 'warn',
+        'react/sort-default-props': 'off',
 
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error'
