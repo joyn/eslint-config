@@ -332,31 +332,41 @@ module.exports = {
         '@typescript-eslint/no-duplicate-enum-values': 'error',
         '@typescript-eslint/parameter-properties': 'off',
         '@typescript-eslint/no-unsafe-declaration-merging': 'error',
-        'functional/prefer-readonly-type': [
+        'functional/prefer-immutable-types': [
             'error',
             {
-                allowLocalMutation: true,
-                allowMutableReturnType: false,
-                checkImplicit: false,
-                ignoreClass: false,
-                ignoreInterface: false,
-                ignoreCollections: false
+                enforcement: 'None',
+                ignoreClasses: false,
+                ignoreInferredTypes: true,
+                parameters: {
+                    enforcement: 'ReadonlyDeep'
+                },
+                variables: {
+                    ignoreInFunctions: true
+                }
             }
         ],
+        'functional/type-declaration-immutability': [
+            'error',
+            {
+                ignoreInterfaces: false
+            }
+        ],
+        'functional/readonly-type': ['error'],
         'functional/prefer-tacit': 'error',
-        'functional/no-this-expression': 'error',
+        'functional/no-this-expressions': 'error',
         'functional/functional-parameters': 'off',
         'functional/immutable-data': 'off',
-        'functional/no-class': 'off',
-        'functional/no-conditional-statement': 'off',
-        'functional/no-expression-statement': 'off',
+        'functional/no-classes': 'off',
+        'functional/no-conditional-statements': 'off',
+        'functional/no-expression-statements': 'off',
         'functional/no-let': 'off',
-        'functional/no-loop-statement': 'off',
-        'functional/no-method-signature': 'off',
-        'functional/no-mixed-type': 'off',
+        'functional/no-loop-statements': 'off',
+        'functional/prefer-property-signatures': 'off',
+        'functional/no-mixed-types': 'off',
         'functional/no-promise-reject': 'off',
         'functional/no-return-void': 'off',
-        'functional/no-throw-statement': 'off',
-        'functional/no-try-statement': 'off'
+        'functional/no-throw-statements': 'off',
+        'functional/no-try-statements': 'off'
     }
 };
