@@ -1,3 +1,11 @@
+## 1.1.0 (January 30, 2023)
+
+### Enhancements
+
+* Update ESLint, plugins and configure new rules ([#23](https://github.com/joyn/eslint-config/pull/23))
+* Update ESLint, plugins and configure new rules ([#22](https://github.com/joyn/eslint-config/pull/22))
+* Bump json5 from 1.0.1 to 1.0.2 ([#21](https://github.com/joyn/eslint-config/pull/21))
+
 ## 1.0.1 (December 29, 2022)
 
 ### Bug Fixes
