@@ -339,20 +339,15 @@ module.exports = {
                 ignoreClasses: false,
                 ignoreInferredTypes: true,
                 parameters: {
-                    enforcement: 'ReadonlyDeep'
+                    enforcement: 'ReadonlyShallow'
                 },
                 variables: {
                     ignoreInFunctions: true
                 }
             }
         ],
-        'functional/type-declaration-immutability': [
-            'error',
-            {
-                ignoreInterfaces: false
-            }
-        ],
-        'functional/readonly-type': ['error'],
+        'functional/type-declaration-immutability': 'off',
+        'functional/readonly-type': ['error', 'keyword'],
         'functional/prefer-tacit': 'error',
         'functional/no-this-expressions': 'error',
         'functional/functional-parameters': 'off',
