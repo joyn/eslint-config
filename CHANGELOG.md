@@ -1,3 +1,9 @@
+## 1.1.1 (January 30, 2023)
+
+### Bug Fixes
+
+-   Ensure that functional rules are not too strict
+
 ## 1.1.0 (January 30, 2023)
 
 ### Enhancements
