@@ -105,7 +105,7 @@
     },
     "ava": {
         "files": [
-            "test/**/*Spec.js"
+            "test/**/*.spec.js"
         ]
     },
     "keywords": [
