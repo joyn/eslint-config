@@ -1,3 +1,10 @@
+## 1.2.0 (March 28, 2023)
+
+### Enhancements
+
+* Update ESLint, plugins and configure new rules ([#26](https://github.com/joyn/eslint-config/pull/26))
+* eslint-plugin-unicorn updated to 46.0.0 ([#25](https://github.com/joyn/eslint-config/pull/25))
+
 ## 1.1.1 (January 30, 2023)
 
 ### Bug Fixes
