@@ -1,7 +1,7 @@
 'use strict';
 
 const test = require('ava');
-const eslintDefaults = require('../node_modules/eslint/conf/eslint-all');
+const eslintDefaults = require('@eslint/js').configs.all;
 const eslintReplacements = require('../node_modules/eslint/conf/replacements.json');
 const coreConfig = require('../configs/core');
 const { testCoreRulesConfigured } = require('./macros');

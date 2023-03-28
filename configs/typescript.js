@@ -332,6 +332,19 @@ module.exports = {
         '@typescript-eslint/no-duplicate-enum-values': 'error',
         '@typescript-eslint/parameter-properties': 'off',
         '@typescript-eslint/no-unsafe-declaration-merging': 'error',
+        '@typescript-eslint/no-mixed-enums': 'error',
+        '@typescript-eslint/no-import-type-side-effects': 'error',
+        '@typescript-eslint/no-duplicate-type-constituents': 'error',
+        '@typescript-eslint/lines-around-comment': 'off',
+        'key-spacing': 'off',
+        '@typescript-eslint/key-spacing': [
+            'error',
+            {
+                beforeColon: false,
+                afterColon: true
+            }
+        ],
+        '@typescript-eslint/block-spacing': 'off',
         'functional/prefer-immutable-types': [
             'error',
             {
