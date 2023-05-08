@@ -1,3 +1,9 @@
+## 2.0.0 (May 8, 2023)
+
+### Breaking Changes
+
+* Update ESLint, plugins and configure new rules ([#27](https://github.com/joyn/eslint-config/pull/27))
+
 ## 1.2.0 (March 28, 2023)
 
 ### Enhancements
