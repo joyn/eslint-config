@@ -231,6 +231,7 @@ module.exports = {
         'unicorn/no-negated-condition': 'error',
         'unicorn/no-typeof-undefined': 'error',
         'unicorn/prefer-set-size': 'error',
+        'unicorn/prefer-blob-reading-methods': 'error',
 
         // enable in the future
         'unicorn/prefer-top-level-await': 'off',
