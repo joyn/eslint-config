@@ -153,7 +153,6 @@ module.exports = {
         'unicorn/no-new-buffer': 'error',
         'unicorn/no-process-exit': 'error',
         'unicorn/no-unreadable-array-destructuring': 'error',
-        'unicorn/no-unsafe-regex': 'off',
         'unicorn/no-unused-properties': 'off',
         'unicorn/no-zero-fractions': 'error',
         'unicorn/number-literal-case': 'error',
