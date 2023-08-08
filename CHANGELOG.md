@@ -1,3 +1,9 @@
+## 2.3.2 (August 8, 2023)
+
+### Bug Fixes
+
+* Update package lock ([ffd51375](https://github.com/joyn/eslint-config/commit/ffd51375374e426b39dd2569ebdbed53adb2851f))
+
 ## 2.3.1 (August 8, 2023)
 
 ### Bug Fixes
