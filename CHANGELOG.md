@@ -1,3 +1,9 @@
+## 2.3.1 (August 8, 2023)
+
+### Bug Fixes
+
+* Fix peer dependencies version ([418eeba4](https://github.com/joyn/eslint-config/commit/418eeba4ee67f4771cb45e1c783ee4ed348662d8))
+
 ## 2.3.0 (August 8, 2023)
 
 ### Enhancements
