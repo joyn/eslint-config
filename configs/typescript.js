@@ -345,6 +345,7 @@ module.exports = {
         ],
         '@typescript-eslint/block-spacing': 'off',
         '@typescript-eslint/no-unsafe-enum-comparison': 'error',
+        '@typescript-eslint/class-methods-use-this': 'error',
         'functional/prefer-immutable-types': [
             'error',
             {

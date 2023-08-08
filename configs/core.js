@@ -375,7 +375,6 @@ module.exports = {
         'no-compare-neg-zero': 'error',
         'no-multi-assign': 'error',
         'no-restricted-properties': 'off',
-        'no-return-await': 'error',
         'no-template-curly-in-string': 'error',
         'no-unsafe-negation': 'error',
         'no-useless-return': 'error',
