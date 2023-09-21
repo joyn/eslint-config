@@ -1,3 +1,9 @@
+## 2.5.0 (September 21, 2023)
+
+### Enhancements
+
+* Update eslint-plugin-array-func ([#31](https://github.com/joyn/eslint-config/pull/31))
+
 ## 2.4.0 (August 29, 2023)
 
 ### Enhancements
