@@ -18,6 +18,9 @@
         "node": ">=16"
     },
     "author": "Mathias Schreck <mathias.schreck@joyn.de>",
+    "contributors": [
+        "Christian Rackerseder <github@echooff.de>"
+    ],
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
