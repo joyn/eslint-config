@@ -1,3 +1,9 @@
+## 2.6.0 (October 23, 2023)
+
+### Enhancements
+
+* Update ESLint, Prettier and plugins ([#33](https://github.com/joyn/eslint-config/pull/33))
+
 ## 2.5.0 (September 21, 2023)
 
 ### Enhancements
