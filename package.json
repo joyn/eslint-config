@@ -15,7 +15,7 @@
         "changelog": "pr-log"
     },
     "engines": {
-        "node": ">=16"
+        "node": ">=18"
     },
     "author": "Mathias Schreck <mathias.schreck@joyn.de>",
     "license": "Apache-2.0",
