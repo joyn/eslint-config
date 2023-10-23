@@ -1,3 +1,9 @@
+## 3.0.0 (October 23, 2023)
+
+### Breaking Changes
+
+* Drop node v16 support ([#34](https://github.com/joyn/eslint-config/pull/34))
+
 ## 2.6.0 (October 23, 2023)
 
 ### Enhancements
