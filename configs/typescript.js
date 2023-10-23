@@ -346,6 +346,24 @@ module.exports = {
         '@typescript-eslint/block-spacing': 'off',
         '@typescript-eslint/no-unsafe-enum-comparison': 'error',
         '@typescript-eslint/class-methods-use-this': 'error',
+        'prefer-destructuring': 'off',
+        '@typescript-eslint/prefer-destructuring': [
+            'error',
+            {
+                VariableDeclarator: {
+                    array: false,
+                    object: true
+                },
+                AssignmentExpression: {
+                    array: false,
+                    object: false
+                }
+            },
+            {
+                enforceForRenamedProperties: false,
+                enforceForDeclarationWithTypeAnnotation: false
+            }
+        ],
         'functional/prefer-immutable-types': [
             'error',
             {

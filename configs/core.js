@@ -90,7 +90,7 @@ module.exports = {
         'no-nested-ternary': 'error',
         'no-new': 'error',
         'no-new-func': 'error',
-        'no-new-object': 'error',
+        'no-object-constructor': 'error',
         'no-new-symbol': 'error',
         'no-new-wrappers': 'error',
         'no-obj-calls': 'error',

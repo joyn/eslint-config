@@ -71,6 +71,7 @@ module.exports = {
         'jest/prefer-mock-promise-shorthand': 'off',
         'jest/prefer-each': 'off',
         'jest/no-restricted-jest-methods': 'off',
-        'jest/no-untyped-mock-factory': 'off'
+        'jest/no-untyped-mock-factory': 'off',
+        'jest/no-confusing-set-timeout': 'warn'
     }
 };
