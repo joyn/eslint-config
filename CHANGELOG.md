@@ -1,3 +1,10 @@
+## 3.1.0 (October 24, 2023)
+
+### Enhancements
+
+* Update plugins and configure new rules ([#36](https://github.com/joyn/eslint-config/pull/36))
+* Add node.js 20.x to the matrix ([#35](https://github.com/joyn/eslint-config/pull/35))
+
 ## 3.0.0 (October 23, 2023)
 
 ### Breaking Changes
