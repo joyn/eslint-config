@@ -364,6 +364,8 @@ module.exports = {
                 enforceForDeclarationWithTypeAnnotation: false
             }
         ],
+        'max-params': 'off',
+        '@typescript-eslint/max-params': ['warn', { max: 4 }],
         'functional/prefer-immutable-types': [
             'error',
             {
