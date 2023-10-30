@@ -1,3 +1,9 @@
+## 3.2.0 (October 30, 2023)
+
+### Enhancements
+
+* Update plugins ([#37](https://github.com/joyn/eslint-config/pull/37))
+
 ## 3.1.0 (October 24, 2023)
 
 ### Enhancements
