@@ -1,3 +1,9 @@
+## 3.4.0 (November 6, 2023)
+
+### Enhancements
+
+* Update ESLint and migrate formatting rules ([#39](https://github.com/joyn/eslint-config/pull/39))
+
 ## 3.3.0 (November 3, 2023)
 
 ### Enhancements
