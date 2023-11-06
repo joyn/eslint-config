@@ -295,7 +295,6 @@ module.exports = {
             }
         ],
         '@typescript-eslint/non-nullable-type-assertion-style': 'off',
-        '@typescript-eslint/object-curly-spacing': 'off',
         '@typescript-eslint/sort-type-constituents': [
             'error',
             {
