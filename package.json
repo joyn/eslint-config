@@ -29,7 +29,6 @@
     "homepage": "https://github.com/joyn/eslint-config",
     "devDependencies": {
         "@eslint/js": "8.53.0",
-        "@stylistic/eslint-plugin-js": "1.0.0",
         "@typescript-eslint/eslint-plugin": "6.9.1",
         "@typescript-eslint/parser": "6.9.1",
         "ava": "5.3.1",
@@ -55,7 +54,6 @@
         "typescript": "5.2.2"
     },
     "peerDependencies": {
-        "@stylistic/eslint-plugin-js": "^1.0.0",
         "@typescript-eslint/eslint-plugin": "^6.9.1",
         "@typescript-eslint/parser": "^6.9.1",
         "eslint": "^8.53.0",
