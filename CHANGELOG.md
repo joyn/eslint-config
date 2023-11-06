@@ -1,3 +1,9 @@
+## 4.0.0 (November 6, 2023)
+
+### Breaking Changes
+
+* Remove ESLint formatting rules ([#40](https://github.com/joyn/eslint-config/pull/40))
+
 ## 3.4.0 (November 6, 2023)
 
 ### Enhancements
