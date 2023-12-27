@@ -64,14 +64,6 @@ module.exports = {
                 }
             }
         ],
-        'brace-style': 'off',
-        '@typescript-eslint/brace-style': [
-            'error',
-            '1tbs',
-            {
-                allowSingleLine: false
-            }
-        ],
         '@typescript-eslint/naming-convention': [
             'error',
             {
@@ -105,23 +97,6 @@ module.exports = {
             {
                 allowExpressions: true,
                 allowTypedFunctionExpressions: true
-            }
-        ],
-        'func-call-spacing': 'off',
-        '@typescript-eslint/func-call-spacing': ['error', 'never'],
-        indent: 'off',
-        '@typescript-eslint/indent': 'off',
-        '@typescript-eslint/member-delimiter-style': [
-            'error',
-            {
-                multiline: {
-                    delimiter: 'semi',
-                    requireLast: true
-                },
-                singleline: {
-                    delimiter: 'semi',
-                    requireLast: false
-                }
             }
         ],
         '@typescript-eslint/member-ordering': 'error',
@@ -184,19 +159,14 @@ module.exports = {
                 allowAny: true
             }
         ],
-        quotes: 'off',
-        '@typescript-eslint/quotes': ['error', 'single', { avoidEscape: true }],
         '@typescript-eslint/restrict-plus-operands': 'error',
         '@typescript-eslint/require-array-sort-compare': 'error',
-        semi: 'off',
-        '@typescript-eslint/semi': ['error', 'always'],
         '@typescript-eslint/triple-slash-reference': [
             'error',
             {
                 path: 'never'
             }
         ],
-        '@typescript-eslint/type-annotation-spacing': 'error',
         '@typescript-eslint/prefer-regexp-exec': 'error',
         '@typescript-eslint/unified-signatures': 'error',
         'no-unused-expressions': 'off',
@@ -205,19 +175,10 @@ module.exports = {
         '@typescript-eslint/require-await': 'off',
         '@typescript-eslint/strict-boolean-expressions': 'off',
         '@typescript-eslint/no-throw-literal': 'error',
-        '@typescript-eslint/no-extra-semi': 'error',
         '@typescript-eslint/prefer-optional-chain': 'error',
         '@typescript-eslint/prefer-nullish-coalescing': 'error',
         '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
-        'comma-spacing': 'off',
-        '@typescript-eslint/comma-spacing': [
-            'error',
-            {
-                before: false,
-                after: true
-            }
-        ],
         '@typescript-eslint/consistent-type-definitions': 'off',
         'default-param-last': 'off',
         '@typescript-eslint/default-param-last': ['error'],
@@ -226,14 +187,6 @@ module.exports = {
         '@typescript-eslint/explicit-member-accessibility': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/init-declarations': 'off',
-        'keyword-spacing': 'off',
-        '@typescript-eslint/keyword-spacing': [
-            'error',
-            {
-                before: true,
-                after: true
-            }
-        ],
         '@typescript-eslint/method-signature-style': ['error', 'method'],
         '@typescript-eslint/no-base-to-string': 'warn',
         'no-dupe-class-members': 'off',
@@ -241,7 +194,6 @@ module.exports = {
         '@typescript-eslint/no-dynamic-delete': ['warn'],
         '@typescript-eslint/no-extra-non-null-assertion': ['error'],
         'no-extra-parens': 'off',
-        '@typescript-eslint/no-extra-parens': ['off'],
         '@typescript-eslint/no-floating-promises': ['error'],
         '@typescript-eslint/no-implied-eval': ['off'],
         '@typescript-eslint/no-invalid-this': ['off'],
@@ -264,12 +216,10 @@ module.exports = {
         '@typescript-eslint/prefer-ts-expect-error': ['off'],
         '@typescript-eslint/restrict-template-expressions': ['off'],
         '@typescript-eslint/return-await': ['off'],
-        '@typescript-eslint/space-before-function-paren': ['off'],
         '@typescript-eslint/switch-exhaustiveness-check': ['error'],
         '@typescript-eslint/typedef': ['off'],
         '@typescript-eslint/unbound-method': ['off'],
         'lines-between-class-members': 'off',
-        '@typescript-eslint/lines-between-class-members': ['error'],
         '@typescript-eslint/ban-tslint-comment': ['off'],
         '@typescript-eslint/no-confusing-non-null-assertion': ['off'],
         '@typescript-eslint/prefer-enum-initializers': ['off'],
@@ -280,12 +230,9 @@ module.exports = {
         'no-shadow': ['off'],
         '@typescript-eslint/no-shadow': ['error', { builtinGlobals: true }],
         '@typescript-eslint/consistent-type-imports': ['off'],
-        'comma-dangle': ['off'],
-        '@typescript-eslint/comma-dangle': ['error', 'never'],
         '@typescript-eslint/consistent-indexed-object-style': 'off',
         '@typescript-eslint/no-loop-func': 'off',
         'no-duplicate-imports': 'off',
-        '@typescript-eslint/space-infix-ops': 'off',
         '@typescript-eslint/no-unnecessary-type-constraint': 'error',
         '@typescript-eslint/no-confusing-void-expression': [
             'error',
@@ -319,13 +266,11 @@ module.exports = {
         '@typescript-eslint/no-unsafe-argument': 'error',
         '@typescript-eslint/prefer-return-this-type': 'off',
         '@typescript-eslint/no-meaningless-void-operator': 'error',
-        '@typescript-eslint/padding-line-between-statements': 'off',
         '@typescript-eslint/no-restricted-imports': 'warn',
         '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
         '@typescript-eslint/consistent-type-exports': 'error',
         '@typescript-eslint/no-redundant-type-constituents': 'error',
         '@typescript-eslint/no-useless-empty-export': 'error',
-        '@typescript-eslint/space-before-blocks': 'off',
         '@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
         '@typescript-eslint/no-duplicate-enum-values': 'error',
         '@typescript-eslint/parameter-properties': 'off',
@@ -333,16 +278,6 @@ module.exports = {
         '@typescript-eslint/no-mixed-enums': 'error',
         '@typescript-eslint/no-import-type-side-effects': 'error',
         '@typescript-eslint/no-duplicate-type-constituents': 'error',
-        '@typescript-eslint/lines-around-comment': 'off',
-        'key-spacing': 'off',
-        '@typescript-eslint/key-spacing': [
-            'error',
-            {
-                beforeColon: false,
-                afterColon: true
-            }
-        ],
-        '@typescript-eslint/block-spacing': 'off',
         '@typescript-eslint/no-unsafe-enum-comparison': 'error',
         '@typescript-eslint/class-methods-use-this': 'error',
         'prefer-destructuring': 'off',
@@ -365,6 +300,8 @@ module.exports = {
         ],
         'max-params': 'off',
         '@typescript-eslint/max-params': ['warn', { max: 4 }],
+        '@typescript-eslint/no-unsafe-unary-minus': 'error',
+        '@typescript-eslint/no-useless-template-literals': 'error',
         'functional/prefer-immutable-types': [
             'error',
             {
