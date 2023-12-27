@@ -1,3 +1,9 @@
+## 4.1.0 (December 27, 2023)
+
+### Enhancements
+
+* Update dependencies, configure new rules, and remove deprecations ([#41](https://github.com/joyn/eslint-config/pull/41))
+
 ## 4.0.0 (November 6, 2023)
 
 ### Breaking Changes
