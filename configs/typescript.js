@@ -280,6 +280,9 @@ module.exports = {
         '@typescript-eslint/no-duplicate-type-constituents': 'error',
         '@typescript-eslint/no-unsafe-enum-comparison': 'error',
         '@typescript-eslint/class-methods-use-this': 'error',
+        '@typescript-eslint/no-array-delete': 'error',
+        '@typescript-eslint/prefer-find': 'error',
+        '@typescript-eslint/prefer-promise-reject-errors': 'error',
         'prefer-destructuring': 'off',
         '@typescript-eslint/prefer-destructuring': [
             'error',
