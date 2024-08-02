@@ -1,3 +1,10 @@
+## 4.3.0 (August 2, 2024)
+
+### Enhancements
+
+* Update dependencies, configure new rules, and remove deprecations ([#44](https://github.com/joyn/eslint-config/pull/44))
+* Bump braces from 3.0.2 to 3.0.3 ([#43](https://github.com/joyn/eslint-config/pull/43))
+
 ## 4.2.0 (March 1, 2024)
 
 ### Enhancements
