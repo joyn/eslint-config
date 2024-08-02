@@ -174,7 +174,6 @@ module.exports = {
         '@typescript-eslint/no-object-literal-type-assertion': 'off',
         '@typescript-eslint/require-await': 'off',
         '@typescript-eslint/strict-boolean-expressions': 'off',
-        '@typescript-eslint/no-throw-literal': 'error',
         '@typescript-eslint/prefer-optional-chain': 'error',
         '@typescript-eslint/prefer-nullish-coalescing': 'error',
         '@typescript-eslint/ban-ts-comment': 'off',
@@ -213,7 +212,6 @@ module.exports = {
         '@typescript-eslint/prefer-as-const': ['error'],
         '@typescript-eslint/prefer-readonly-parameter-types': ['off'],
         '@typescript-eslint/prefer-reduce-type-parameter': ['error'],
-        '@typescript-eslint/prefer-ts-expect-error': ['off'],
         '@typescript-eslint/restrict-template-expressions': ['off'],
         '@typescript-eslint/return-await': ['off'],
         '@typescript-eslint/switch-exhaustiveness-check': ['error'],
@@ -242,27 +240,6 @@ module.exports = {
             }
         ],
         '@typescript-eslint/non-nullable-type-assertion-style': 'off',
-        '@typescript-eslint/sort-type-constituents': [
-            'error',
-            {
-                checkIntersections: true,
-                checkUnions: true,
-                groupOrder: [
-                    'named',
-                    'keyword',
-                    'operator',
-                    'literal',
-                    'function',
-                    'import',
-                    'conditional',
-                    'object',
-                    'tuple',
-                    'intersection',
-                    'union',
-                    'nullish'
-                ]
-            }
-        ],
         '@typescript-eslint/no-unsafe-argument': 'error',
         '@typescript-eslint/prefer-return-this-type': 'off',
         '@typescript-eslint/no-meaningless-void-operator': 'error',
@@ -304,7 +281,20 @@ module.exports = {
         'max-params': 'off',
         '@typescript-eslint/max-params': ['warn', { max: 4 }],
         '@typescript-eslint/no-unsafe-unary-minus': 'error',
-        '@typescript-eslint/no-useless-template-literals': 'error',
+        '@typescript-eslint/no-unnecessary-template-expression': 'error',
+        'consistent-return': 'off',
+        '@typescript-eslint/consistent-return': 'error',
+        '@typescript-eslint/no-empty-object-type': 'error',
+        'no-throw-literal': 'off',
+        '@typescript-eslint/only-throw-error': 'error',
+
+        // error in the next major
+        '@typescript-eslint/no-unnecessary-type-parameters': 'warn',
+        '@typescript-eslint/no-unnecessary-parameter-property-assignment': 'warn',
+        '@typescript-eslint/no-unsafe-function-type': 'warn',
+        '@typescript-eslint/no-wrapper-object-types': 'warn',
+        '@typescript-eslint/use-unknown-in-catch-callback-variable': 'warn',
+
         'functional/prefer-immutable-types': [
             'error',
             {

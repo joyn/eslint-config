@@ -30,6 +30,7 @@ module.exports = {
         'mocha/no-async-describe': 'error',
         'mocha/no-exports': 'error',
         'mocha/no-empty-description': 'error',
+        'mocha/consistent-spacing-between-blocks': 'error',
 
         'mocha/no-return-from-async': 'off'
     }

@@ -72,6 +72,10 @@ module.exports = {
         'jest/prefer-each': 'off',
         'jest/no-restricted-jest-methods': 'off',
         'jest/no-untyped-mock-factory': 'off',
-        'jest/no-confusing-set-timeout': 'warn'
+        'jest/no-confusing-set-timeout': 'warn',
+
+        // error in the next major
+        'jest/prefer-importing-jest-globals': 'warn',
+        'jest/prefer-jest-mocked': 'warn'
     }
 };
