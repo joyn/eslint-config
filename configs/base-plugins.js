@@ -232,6 +232,18 @@ module.exports = {
         'unicorn/prefer-set-size': 'error',
         'unicorn/prefer-blob-reading-methods': 'error',
         'unicorn/no-unnecessary-polyfills': 'error',
+        'unicorn/consistent-empty-array-spread': 'error',
+        'unicorn/no-invalid-fetch-options': 'error',
+        'unicorn/no-length-as-slice-end': 'error',
+        'unicorn/no-negation-in-equality-check': 'error',
+        'unicorn/no-single-promise-in-promise-methods': 'error',
+
+        // error in the next major
+        'unicorn/no-anonymous-default-export': 'warn',
+        'unicorn/no-await-in-promise-methods': 'warn',
+        'unicorn/no-magic-array-flat-depth': 'warn',
+        'unicorn/prefer-string-raw': 'warn',
+        'unicorn/prefer-structured-clone': 'warn',
 
         // enable in the future
         'unicorn/prefer-top-level-await': 'off',

@@ -106,6 +106,10 @@ module.exports = {
         'react/jsx-no-leaked-render': 'error',
         'react/no-object-type-as-default-prop': 'warn',
         'react/sort-default-props': 'off',
+        'react/checked-requires-onchange-or-readonly': 'error',
+
+        // error in the next major
+        'react/jsx-props-no-spread-multi': 'warn',
 
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error'
