@@ -73,6 +73,14 @@ module.exports = {
         'jest/no-restricted-jest-methods': 'off',
         'jest/no-untyped-mock-factory': 'off',
         'jest/no-confusing-set-timeout': 'warn',
+        'jest/padding-around-after-all-blocks': 'error',
+        'jest/padding-around-after-each-blocks': 'error',
+        'jest/padding-around-all': 'error',
+        'jest/padding-around-before-all-blocks': 'error',
+        'jest/padding-around-before-each-blocks': 'error',
+        'jest/padding-around-expect-groups': 'error',
+        'jest/padding-around-describe-blocks': 'error',
+        'jest/padding-around-test-blocks': 'error',
 
         // error in the next major
         'jest/prefer-importing-jest-globals': 'warn',

@@ -104,12 +104,6 @@ module.exports = {
         '@typescript-eslint/no-array-constructor': 'error',
         'no-empty-function': 'off',
         '@typescript-eslint/no-empty-function': 'off',
-        '@typescript-eslint/no-empty-interface': [
-            'error',
-            {
-                allowSingleExtends: true
-            }
-        ],
         '@typescript-eslint/no-explicit-any': 'warn',
         '@typescript-eslint/no-extraneous-class': 'error',
         '@typescript-eslint/no-for-in-array': 'error',
@@ -146,7 +140,6 @@ module.exports = {
         ],
         'no-useless-constructor': 'off',
         '@typescript-eslint/no-useless-constructor': 'error',
-        '@typescript-eslint/no-var-requires': 'error',
         '@typescript-eslint/prefer-for-of': 'error',
         '@typescript-eslint/prefer-function-type': 'error',
         '@typescript-eslint/prefer-includes': 'error',
@@ -222,7 +215,6 @@ module.exports = {
         '@typescript-eslint/no-confusing-non-null-assertion': ['off'],
         '@typescript-eslint/prefer-enum-initializers': ['off'],
         '@typescript-eslint/prefer-literal-enum-member': ['off'],
-        '@typescript-eslint/no-loss-of-precision': ['off'],
         'no-redeclare': ['off'],
         '@typescript-eslint/no-redeclare': ['error', { builtinGlobals: true }],
         'no-shadow': ['off'],
@@ -287,6 +279,7 @@ module.exports = {
         '@typescript-eslint/no-empty-object-type': 'error',
         'no-throw-literal': 'off',
         '@typescript-eslint/only-throw-error': 'error',
+        '@typescript-eslint/no-restricted-types': 'off',
 
         // error in the next major
         '@typescript-eslint/no-unnecessary-type-parameters': 'warn',
