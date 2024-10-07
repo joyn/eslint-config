@@ -1,3 +1,9 @@
+## 4.4.0 (October 7, 2024)
+
+### Enhancements
+
+* Update dependencies ([#45](https://github.com/joyn/eslint-config/pull/45))
+
 ## 4.3.0 (August 2, 2024)
 
 ### Enhancements
