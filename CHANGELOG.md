@@ -1,3 +1,9 @@
+## 4.4.1 (October 9, 2024)
+
+### Bug Fixes
+
+* Fix rule removal mechanism ([#46](https://github.com/joyn/eslint-config/pull/46))
+
 ## 4.4.0 (October 7, 2024)
 
 ### Enhancements
