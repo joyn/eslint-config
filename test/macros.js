@@ -51,19 +51,24 @@ function testPluginRulesConfigured(t, { ruleConfigSet, rules, pluginName }) {
 }
 
 function testContainsKnownPluginRules(t, { ruleConfigSet, pluginRules }) {
-    const pluginRuleNames = Object.keys(pluginRules).flatMap((pluginName) => {
-        const rules = pluginRules[pluginName];
-        const shortPluginName = extractShortName(pluginName);
+    const pluginRuleNames = new Set(
+        Object.keys(pluginRules).flatMap((pluginName) => {
+            const rules = pluginRules[pluginName];
+            const shortPluginName = extractShortName(pluginName);
 
-        return Object.keys(rules)
-            .filter((ruleName) => !isRuleDeprecated(rules[ruleName]))
-            .map((ruleName) => `${shortPluginName}/${ruleName}`);
-    });
+            return Object.keys(rules)
+                .filter((ruleName) => !isRuleDeprecated(rules[ruleName]))
+                .map((ruleName) => `${shortPluginName}/${ruleName}`);
+        })
+    );
 
-    const configuredRuleNames = Object.keys(ruleConfigSet);
+    const shortPluginNames = Object.keys(pluginRules).map(extractShortName);
+    const configuredPluginRuleNames = Object.keys(ruleConfigSet).filter((ruleName) =>
+        shortPluginNames.find((shortPluginName) => ruleName.startsWith(shortPluginName))
+    );
 
-    pluginRuleNames.forEach((ruleName) => {
-        t.true(configuredRuleNames.includes(ruleName), `Rule ${ruleName} can be removed`);
+    configuredPluginRuleNames.forEach((ruleName) => {
+        t.true(pluginRuleNames.has(ruleName), `Rule ${ruleName} can be removed`);
     });
 }
 
