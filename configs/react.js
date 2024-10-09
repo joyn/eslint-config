@@ -107,6 +107,7 @@ module.exports = {
         'react/no-object-type-as-default-prop': 'warn',
         'react/sort-default-props': 'off',
         'react/checked-requires-onchange-or-readonly': 'error',
+        'react/forward-ref-uses-ref': 'error',
 
         // error in the next major
         'react/jsx-props-no-spread-multi': 'warn',

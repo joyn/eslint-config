@@ -36,6 +36,7 @@ module.exports = {
         'promise/valid-params': 'error',
         'promise/prefer-await-to-then': 'error',
         'promise/no-multiple-resolved': 'error',
+        'promise/spec-only': 'error',
 
         'eslint-comments/disable-enable-pair': [
             'error',
@@ -237,6 +238,9 @@ module.exports = {
         'unicorn/no-length-as-slice-end': 'error',
         'unicorn/no-negation-in-equality-check': 'error',
         'unicorn/no-single-promise-in-promise-methods': 'error',
+        'unicorn/consistent-existence-index-check': 'error',
+        'unicorn/prefer-global-this': 'error',
+        'unicorn/prefer-math-min-max': 'error',
 
         // error in the next major
         'unicorn/no-anonymous-default-export': 'warn',
