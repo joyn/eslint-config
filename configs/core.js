@@ -3,7 +3,7 @@
 module.exports = {
     reportUnusedDisableDirectives: true,
     parserOptions: {
-        ecmaVersion: 2021,
+        ecmaVersion: 2023,
         sourceType: 'script',
         ecmaFeatures: {
             jsx: false,
@@ -13,7 +13,7 @@ module.exports = {
     },
     env: {
         builtin: true,
-        es2021: true
+        es2023: true
     },
     rules: {
         'array-callback-return': 'error',
@@ -310,8 +310,6 @@ module.exports = {
         'no-unused-private-class-members': 'error',
         'no-constant-binary-expression': 'error',
         'logical-assignment-operators': ['error', 'never'],
-
-        // enable in the future (ES2022)
-        'prefer-object-has-own': 'off'
+        'prefer-object-has-own': 'error'
     }
 };
