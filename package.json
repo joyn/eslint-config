@@ -1,7 +1,7 @@
 {
     "name": "eslint-config-joyn",
     "version": "4.4.1",
-    "description": "Shareable ESLint config presets for Joyn.",
+    "description": "Shareable ESLint config presets for Joyn",
     "main": "./presets/index.js",
     "files": [
         "configs/",
@@ -15,7 +15,7 @@
         "changelog": "pr-log"
     },
     "engines": {
-        "node": ">=20"
+        "node": ">=20.9"
     },
     "author": "Mathias Schreck <mathias.schreck@joyn.de>",
     "license": "Apache-2.0",
@@ -111,6 +111,7 @@
     },
     "keywords": [
         "eslint",
+        "joyn",
         "eslintconfig"
     ],
     "publishConfig": {
