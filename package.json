@@ -41,7 +41,7 @@
         "eslint-plugin-jest": "28.8.3",
         "eslint-plugin-mocha": "10.5.0",
         "eslint-plugin-no-secrets": "1.0.2",
-        "eslint-plugin-node": "11.1.0",
+        "eslint-plugin-n": "17.11.1",
         "eslint-plugin-optimize-regex": "1.2.1",
         "eslint-plugin-prettier": "5.2.1",
         "eslint-plugin-promise": "7.1.0",
@@ -65,7 +65,7 @@
         "eslint-plugin-jest": "^28.8.3",
         "eslint-plugin-mocha": "^10.5.0",
         "eslint-plugin-no-secrets": "^1.0.2",
-        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-n": "^17.11.1",
         "eslint-plugin-optimize-regex": "^1.2.1",
         "eslint-plugin-prettier": "^5.2.1",
         "eslint-plugin-promise": "^7.1.0",
@@ -79,7 +79,7 @@
         "eslint-plugin-functional": {
             "optional": true
         },
-        "eslint-plugin-node": {
+        "eslint-plugin-n": {
             "optional": true
         },
         "eslint-plugin-mocha": {
