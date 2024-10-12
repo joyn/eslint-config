@@ -64,7 +64,7 @@ function testContainsKnownPluginRules(t, { ruleConfigSet, pluginRules }) {
 
     const shortPluginNames = Object.keys(pluginRules).map(extractShortName);
     const configuredPluginRuleNames = Object.keys(ruleConfigSet).filter((ruleName) =>
-        shortPluginNames.find((shortPluginName) => ruleName.startsWith(shortPluginName))
+        shortPluginNames.find((shortPluginName) => ruleName.startsWith(`${shortPluginName}/`))
     );
 
     configuredPluginRuleNames.forEach((ruleName) => {
